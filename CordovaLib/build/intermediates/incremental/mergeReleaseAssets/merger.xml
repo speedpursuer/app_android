@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/xl/Documents/Android/Cliplay/CordovaLib/assets"/><source path="/Users/xl/Documents/Android/Cliplay/CordovaLib/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/xl/Documents/Android/Cliplay/CordovaLib/src/release/assets"/></dataSet></merger>

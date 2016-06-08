@@ -1,0 +1,32 @@
+<ion-view title="最新信息" hide-tabs="false">
+	<ion-nav-buttons side="right">
+    	<button class="button button-clear" ng-click="cleanCache()">
+       		<i class="ion-trash-b basketball"></i>
+      	</button>
+    </ion-nav-buttons>
+    <ion-content>    	 
+    	<ion-refresher
+            pulling-text="下拉获取更新..."
+            on-refresh="doRefresh()">
+        </ion-refresher>  
+		<ion-list can-swipe="listCanSwipe" id="ClipsScopeID">
+			<ion-item ng-repeat="item in news" class="item-thumbnail-left news" ng-click='showClips($index)'>
+				<img img-cache-src-common ic-src="{{item.thumb}}">
+				<div class="row">
+					<div class="col col-top"><h2>{{item.name}}</h2></div>			
+					<!-- <div class="col col-top col-90"><h2>{{item.name}}</h2></div>			
+					<div class="col col-top col-10" ng-show="!item.read">
+						<i class="ion-ios-basketball basketball"></i>
+					</div> -->
+				</div>
+				<div class="row">
+					<div class="col col-top"><p>{{item.desc}}</p></div>
+				</div>				
+			</ion-item>
+		</ion-list>
+		<ion-infinite-scroll
+  		on-infinite="loadMore()" ng-if="!noMoreItemsAvailable.noMore"   		
+  		distance="1%">
+		</ion-infinite-scroll>
+    </ion-content>
+</ion-view>
