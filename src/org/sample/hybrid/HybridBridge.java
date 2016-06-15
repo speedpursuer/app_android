@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import com.lee.cliplay.ClipActivity;
+import com.lee.cliplay.Encrypt.Encryption;
 import com.lee.cliplay.Push.CustomApplication;
 
 import org.apache.cordova.CallbackContext;
@@ -45,8 +46,13 @@ public class HybridBridge extends CordovaPlugin {
                 app.showPush();
                 return true;
             }else if (action.equals("getDBString")) {
+                Encryption e = new Encryption();
+////                e.encrypt(cordova.getActivity(), app.dbKey, app.dbFile);
+                e.decrypt(cordova.getActivity(), app.dbKey, app.dbFile);
                 callbackContext.success(app.dbString + "," + app.dbFile);
                 return true;
+            }else if (action.equals("moveToBack")) {
+                cordova.getActivity().moveTaskToBack(true);
             }
             callbackContext.error("Invalid action");
             return false;

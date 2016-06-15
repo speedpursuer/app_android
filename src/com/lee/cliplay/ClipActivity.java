@@ -79,7 +79,7 @@ public class ClipActivity extends Activity {
 
         }
 
-        mCurrentAdapter = null;
+//        mCurrentAdapter = null;
 
         mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
@@ -266,12 +266,15 @@ public class ClipActivity extends Activity {
 
     private void setLoaderAdapter () {
 
-        resetAdapter();
+//        resetAdapter();
 
-        mCurrentAdapter = new FrescoAdapter(
-            this,
-            ImagePipelineConfigFactory.getOkHttpImagePipelineConfig(this)
-        );
+//        mCurrentAdapter = new FrescoAdapter(
+//            this,
+////            ImagePipelineConfigFactory.getOkHttpImagePipelineConfig(this)
+//            ImagePipelineConfigFactory.getsImagePipelineConfig()
+//        );
+
+        mCurrentAdapter = new FrescoAdapter(this);
 
         checkConnection();
 

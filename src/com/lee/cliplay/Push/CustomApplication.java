@@ -11,6 +11,7 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.imagepipeline.core.ImagePipeline;
 import com.lee.cliplay.ClipActivity;
 import com.lee.cliplay.HelloJNI;
+import com.lee.cliplay.configs.imagepipeline.ImagePipelineConfigFactory;
 
 import java.io.IOException;
 
@@ -29,8 +30,10 @@ public class CustomApplication extends Application {
     public String pushID = "";
     public String pushHeader = "";
     private Activity mCurrentActivity = null;
+//    private Activity mainActivity = null;
     public String dbString = "";
     public String dbFile = "";
+    public String dbKey = "";
     public String uid = "";
     public String pwd = "";
 
@@ -48,6 +51,8 @@ public class CustomApplication extends Application {
         dbFile = HelloJNI.dbFileFromJNI();
         uid = HelloJNI.uidFromJNI();
         pwd = HelloJNI.pwdFromJNI();
+        dbKey = HelloJNI.keyFromJNI();
+        Fresco.initialize(this, ImagePipelineConfigFactory.getOkHttpImagePipelineConfig(this));
     }
 
     public void showPush() {
@@ -63,7 +68,7 @@ public class CustomApplication extends Application {
                 .url(dbString + "cliplay_prod/" + pushID)
                 .build();
 
-        final Application app = CustomApplication.this;
+        final CustomApplication app = CustomApplication.this;
 
         client.newCall(request).enqueue(new Callback() {
             @Override public void onFailure(Call call, IOException e) {
@@ -74,18 +79,21 @@ public class CustomApplication extends Application {
 
                 if(!webViewLoaded) return;
 
-                if(mCurrentActivity != null) {
-                    mCurrentActivity.finish();
-                }
-
                 String responseBody = response.body().string();
 
                 Intent intent = new Intent();
-                intent.setClass(app.getApplicationContext(), ClipActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
                 intent.putExtra("urls", responseBody);
                 intent.putExtra("pushHeader", pushHeader);
-                app.getApplicationContext().startActivity(intent);
+
+                Context context = app.getCurrentActivity();
+
+                if(mCurrentActivity != null && !mCurrentActivity.getLocalClassName().equals("MainActivity")) {
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                }
+
+                intent.setClass(context, ClipActivity.class);
+                context.startActivity(intent);
 
                 pushID = "";
             }

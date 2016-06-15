@@ -8,10 +8,9 @@ import android.content.pm.FeatureInfo;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -42,7 +41,6 @@ import static android.opengl.GLES20.glDrawArrays;
 import static android.opengl.GLES20.glEnableVertexAttribArray;
 import static android.opengl.GLES20.glGenTextures;
 import static android.opengl.GLES20.glGetAttribLocation;
-import static android.opengl.GLES20.glGetShaderInfoLog;
 import static android.opengl.GLES20.glGetUniformLocation;
 import static android.opengl.GLES20.glLinkProgram;
 import static android.opengl.GLES20.glShaderSource;
@@ -140,6 +138,31 @@ public class GifActivity extends Activity {
 //            }
 //        });
 
+
+//        SeekBar seekbar = (SeekBar) findViewById(R.id.seekbar);
+//        seekbar.setMax(mGifTexImage2D.getNumberOfFrames()-1);
+//        seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+//            @Override
+//            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+//                if (fromUser){
+////                    mGifTexImage2D.seekToFrame(progress);
+//                    synchronized (GifActivity.this) {
+//                        mGifTexImage2D.seekToFrame(progress);
+//                    }
+//                }
+//            }
+//
+//            @Override
+//            public void onStartTrackingTouch(SeekBar seekBar) {
+//
+//            }
+//
+//            @Override
+//            public void onStopTrackingTouch(SeekBar seekBar) {
+//
+//            }
+//        });
+
         noOfFrames = mGifTexImage2D.getNumberOfFrames();
 
         DisplayMetrics metrics = this.getResources().getDisplayMetrics();
@@ -178,7 +201,8 @@ public class GifActivity extends Activity {
             top = (screenHeight - imageViewHeight) / 2;
         }
 
-        FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams((int)imageViewWidth, (int)imageViewHeight);
+//        FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams((int)imageViewWidth, (int)imageViewHeight);
+        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams((int)imageViewWidth, (int)imageViewHeight);
         layoutParams.setMargins((int)left, (int)top, (int)left, (int)top);
         view.setLayoutParams(layoutParams);
     }
@@ -233,7 +257,6 @@ public class GifActivity extends Activity {
         int shader = glCreateShader(shaderType);
         glShaderSource(shader, source);
         glCompileShader(shader);
-        Log.w("shader info log", glGetShaderInfoLog(shader));
         return shader;
     }
 
@@ -261,9 +284,6 @@ public class GifActivity extends Activity {
     }
 
     private boolean supportsEs2() {
-//        String version = javax.microedition.khronos.opengles.GL10.glGetString(
-//                GL10.GL_VERSION);
-//        Log.w("Cliplay", "Version: " + version );
 
         final ActivityManager activityManager =
                 (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);

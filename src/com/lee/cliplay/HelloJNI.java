@@ -16,4 +16,6 @@ public class HelloJNI {
     public static native String uidFromJNI();
 
     public static native String pwdFromJNI();
+
+    public static native String keyFromJNI();
 }

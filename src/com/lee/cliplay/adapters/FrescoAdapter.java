@@ -39,6 +39,10 @@ public class FrescoAdapter extends com.lee.cliplay.adapters.ImageListAdapter {
     Fresco.initialize(context, imagePipelineConfig);
   }
 
+  public FrescoAdapter(Context context) {
+    super(context);
+  }
+
   @Override
   public FrescoHolder onCreateViewHolder(ViewGroup parent, int viewType) {
     ProgressBarDrawable pb = new ProgressBarDrawable();

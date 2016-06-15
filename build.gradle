@@ -38,6 +38,7 @@ buildscript {
 // Allow plugins to declare Maven dependencies via build-extras.gradle.
 repositories {
     jcenter()
+    maven { url "https://jitpack.io" }
 }
 
 task wrapper(type: org.gradle.api.tasks.wrapper.Wrapper) {
@@ -152,7 +153,7 @@ android {
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
-            java.srcDirs = ['src']
+            java.srcDirs = ['src', 'src/main/java', 'src/Test', 'src/java/Test']
             resources.srcDirs = ['src']
             aidl.srcDirs = ['src']
             renderscript.srcDirs = ['src']
@@ -247,12 +248,15 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'),
                     'proguard-cliplay.pro'
-
         }
     }
 }
 
 dependencies {
+    // Required -- JUnit 4 framework
+    testCompile 'junit:junit:4.12'
+    // Optional -- Mockito framework
+    testCompile 'org.mockito:mockito-core:1.10.19'
     provided 'com.android.support:support-annotations:23.3.0'
     provided 'com.google.code.findbugs:jsr305:3.0.0'
     compile fileTree(dir: 'libs', include: '*.jar')
@@ -269,6 +273,7 @@ dependencies {
     // For animated GIF support
     compile 'com.facebook.fresco:animated-gif:0.10.0'
     compile "com.facebook.fresco:imagepipeline-okhttp3:0.10.0+"
+    compile 'com.facebook.conceal:conceal:1.0.3@aar'
     compile 'com.yqritc:recyclerview-flexibledivider:1.2.9'
     compile files('libs/pushservice-5.0.0.66.jar')
     compile 'com.github.fengdai:alertdialogpro-theme-material:0.2.6'

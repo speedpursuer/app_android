@@ -19,6 +19,7 @@
 
 package com.lee.cliplay;
 
+import android.app.Activity;
 import android.app.Notification;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -35,16 +36,30 @@ import org.apache.cordova.CordovaActivity;
 
 public class MainActivity extends CordovaActivity
 {
-//    private AlertDialog dialog;
+    protected CustomApplication mMyApp;
 
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        ((CustomApplication)this.getApplicationContext()).setCurrentActivity(this);
+        mMyApp = (CustomApplication)this.getApplicationContext();
         setupPushService();
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mMyApp.setCurrentActivity(this);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Activity currActivity = mMyApp.getCurrentActivity();
+        if (this.equals(currActivity))
+            mMyApp.setCurrentActivity(null);
     }
 
     private void setupPushService() {

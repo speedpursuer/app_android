@@ -20,3 +20,7 @@ jstring Java_com_lee_cliplay_HelloJNI_uidFromJNI( JNIEnv* env, jobject thiz ) {
 jstring Java_com_lee_cliplay_HelloJNI_pwdFromJNI( JNIEnv* env, jobject thiz ) {
     return (*env)->NewStringUTF(env, "Cliplay1234");
 }
+
+jstring Java_com_lee_cliplay_HelloJNI_keyFromJNI( JNIEnv* env, jobject thiz ) {
+    return (*env)->NewStringUTF(env, "jordankobelebron");
+}

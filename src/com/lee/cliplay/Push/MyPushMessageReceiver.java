@@ -68,13 +68,15 @@ public class MyPushMessageReceiver extends PushMessageReceiver {
                 if (!customJson.isNull("push_id")) {
                     pushID = customJson.getString("push_id");
                     CustomApplication app = ((CustomApplication)context.getApplicationContext());
+
+                    if(app == null) {
+                        return;
+                    }
+
                     app.pushID = pushID;
                     app.pushHeader = title;
                     if(app.webViewLoaded) {
-                        Log.e("webViewLoaded", "webView Loaded");
                         app.showPush();
-                    }else{
-                        Log.e("webViewLoaded", "webView Not Loaded");
                     }
                 }
             } catch (JSONException e) {

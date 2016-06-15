@@ -22,6 +22,10 @@ HybridBridge.prototype.getDBString = function(successCallback, errorCallback) {
     exec(successCallback, errorCallback, "HybridBridge", "getDBString", []);
 };
 
+HybridBridge.prototype.moveToBack = function(successCallback, errorCallback) {
+    exec(successCallback, errorCallback, "HybridBridge", "moveToBack", []);
+};
+
 module.exports = new HybridBridge();
 
 
