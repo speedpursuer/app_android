@@ -2,15 +2,20 @@ package com.lee.cliplay.Push;
 
 import android.app.Activity;
 import android.app.Application;
+import android.app.Notification;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 
 import com.alertdialogpro.AlertDialogPro;
+import com.baidu.android.pushservice.CustomPushNotificationBuilder;
+import com.baidu.android.pushservice.PushConstants;
+import com.baidu.android.pushservice.PushManager;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.imagepipeline.core.ImagePipeline;
 import com.lee.cliplay.ClipActivity;
 import com.lee.cliplay.HelloJNI;
+import com.lee.cliplay.R;
 import com.lee.cliplay.configs.imagepipeline.ImagePipelineConfigFactory;
 
 import java.io.IOException;
@@ -30,12 +35,13 @@ public class CustomApplication extends Application {
     public String pushID = "";
     public String pushHeader = "";
     private Activity mCurrentActivity = null;
-//    private Activity mainActivity = null;
     public String dbString = "";
     public String dbFile = "";
     public String dbKey = "";
     public String uid = "";
     public String pwd = "";
+    public String dbName = "";
+    public String apiKey = "";
 
     public Activity getCurrentActivity(){
         return mCurrentActivity;
@@ -52,7 +58,23 @@ public class CustomApplication extends Application {
         uid = HelloJNI.uidFromJNI();
         pwd = HelloJNI.pwdFromJNI();
         dbKey = HelloJNI.keyFromJNI();
+        dbName = HelloJNI.dbNameFromJNI();
+        apiKey = HelloJNI.apiKeyFromJNI();
+        setupPushService(apiKey);
         Fresco.initialize(this, ImagePipelineConfigFactory.getOkHttpImagePipelineConfig(this));
+    }
+
+    @Override
+    public void onTerminate() {
+        super.onTerminate();
+        Fresco.shutDown();
+    }
+
+    @Override
+    public void onLowMemory() {
+        super.onLowMemory();
+        ImagePipeline imagePipeline = Fresco.getImagePipeline();
+        imagePipeline.clearMemoryCaches();
     }
 
     public void showPush() {
@@ -65,7 +87,7 @@ public class CustomApplication extends Application {
 
         Request request = new Request.Builder()
                 .header("Authorization", credential)
-                .url(dbString + "cliplay_prod/" + pushID)
+                .url(dbString + dbName + "/" + pushID)
                 .build();
 
         final CustomApplication app = CustomApplication.this;
@@ -77,27 +99,37 @@ public class CustomApplication extends Application {
 
             @Override public void onResponse(Call call, Response response) throws IOException {
 
-                if(!webViewLoaded) return;
+                if(!app.webViewLoaded) return;
 
                 String responseBody = response.body().string();
 
                 Intent intent = new Intent();
 
                 intent.putExtra("urls", responseBody);
-                intent.putExtra("pushHeader", pushHeader);
+                intent.putExtra("pushHeader", app.pushHeader);
 
                 Context context = app.getCurrentActivity();
 
-                if(mCurrentActivity != null && !mCurrentActivity.getLocalClassName().equals("MainActivity")) {
+                if(app.mCurrentActivity != null && !app.mCurrentActivity.getLocalClassName().equals("MainActivity")) {
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 }
 
                 intent.setClass(context, ClipActivity.class);
                 context.startActivity(intent);
 
-                pushID = "";
+                app.pushID = "";
             }
         });
+    }
+
+    private void setupPushService(String apiKey) {
+        PushManager.startWork(getApplicationContext(), PushConstants.LOGIN_TYPE_API_KEY, apiKey);
+        CustomPushNotificationBuilder cBuilder = new CustomPushNotificationBuilder(0, 0, 0, 0);
+        cBuilder.setNotificationFlags(Notification.FLAG_AUTO_CANCEL);
+        cBuilder.setNotificationDefaults(Notification.DEFAULT_VIBRATE);
+        cBuilder.setStatusbarIcon(this.getApplicationInfo().icon);
+        cBuilder.setNotificationSound("android.resource://" + getPackageName() + "/" + R.raw.sound);
+        PushManager.setNotificationBuilder(this, 1, cBuilder);
     }
 
     public void showDialog(String title, String desc, boolean clean, Context context) {

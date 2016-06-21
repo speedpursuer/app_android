@@ -47,9 +47,9 @@ public class HybridBridge extends CordovaPlugin {
                 return true;
             }else if (action.equals("getDBString")) {
                 Encryption e = new Encryption();
-////                e.encrypt(cordova.getActivity(), app.dbKey, app.dbFile);
+//                e.encrypt(cordova.getActivity(), app.dbKey, app.dbFile);
                 e.decrypt(cordova.getActivity(), app.dbKey, app.dbFile);
-                callbackContext.success(app.dbString + "," + app.dbFile);
+                callbackContext.success(app.dbString + "," + app.dbFile + "," + app.dbName);
                 return true;
             }else if (action.equals("moveToBack")) {
                 cordova.getActivity().moveTaskToBack(true);

@@ -18,5 +18,5 @@ public class ConfigConstants {
   private static final int MAX_HEAP_SIZE = (int) Runtime.getRuntime().maxMemory();
 
   public static final int MAX_DISK_CACHE_SIZE = 2000 * ByteConstants.MB;
-  public static final int MAX_MEMORY_CACHE_SIZE = (int)(MAX_HEAP_SIZE * 0.8);
+  public static final int MAX_MEMORY_CACHE_SIZE = (int)(MAX_HEAP_SIZE * 0.7);
 }

@@ -24,6 +24,7 @@ import com.facebook.binaryresource.FileBinaryResource;
 import com.facebook.cache.common.CacheKey;
 import com.facebook.common.util.UriUtil;
 import com.facebook.drawee.backends.pipeline.Fresco;
+import com.facebook.drawee.generic.GenericDraweeHierarchy;
 import com.facebook.drawee.interfaces.DraweeController;
 import com.facebook.imagepipeline.cache.DefaultCacheKeyFactory;
 import com.facebook.imagepipeline.common.ResizeOptions;
@@ -40,17 +41,24 @@ import java.io.File;
  */
 public class FrescoHolder extends BaseViewHolder<InstrumentedDraweeView> implements View.OnClickListener{
 
+//  public FrescoHolder(
+//      Context context, View parentView,
+//      InstrumentedDraweeView intrumentedDraweeView) {
+////    InstrumentedDraweeView intrumentedDraweeView, PerfListener perfListener) {
+////    super(context, parentView, intrumentedDraweeView, perfListener);
+//    super(context, parentView, intrumentedDraweeView);
+//    intrumentedDraweeView.setOnClickListener(this);
+//  }
+
   public FrescoHolder(
-      Context context, View parentView,
-      InstrumentedDraweeView intrumentedDraweeView) {
-//    InstrumentedDraweeView intrumentedDraweeView, PerfListener perfListener) {
-//    super(context, parentView, intrumentedDraweeView, perfListener);
-    super(context, parentView, intrumentedDraweeView);
-    intrumentedDraweeView.setOnClickListener(this);
+          Context context, View view, GenericDraweeHierarchy hierarchy, View parentView) {
+    super(context, view, parentView);
+    mImageView.setHierarchy(hierarchy);
+    mImageView.setOnClickListener(this);
   }
 
   @Override
-  protected void onBind(String uriString) {
+  protected void onBind(String uriString, String desc) {
     Uri uri = Uri.parse(uriString);
     ImageRequestBuilder imageRequestBuilder =
         ImageRequestBuilder.newBuilderWithSource(uri);
@@ -63,12 +71,19 @@ public class FrescoHolder extends BaseViewHolder<InstrumentedDraweeView> impleme
     }
     DraweeController draweeController = Fresco.newDraweeControllerBuilder()
         .setImageRequest(imageRequestBuilder.build())
+        .setTapToRetryEnabled(false)
         .setOldController(mImageView.getController())
         .setControllerListener(mImageView.getListener())
         .setAutoPlayAnimations(false)
         .build();
     mImageView.setController(draweeController);
     URL = uriString;
+
+    if(desc.equals("")) {
+      mTextView.setVisibility(View.GONE);
+    }else {
+      mTextView.setText(desc);
+    }
   }
 
   @Override

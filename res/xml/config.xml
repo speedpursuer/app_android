@@ -84,6 +84,7 @@
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="FadeSplashScreen" value="false" />
     <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="KeepRunning" value="false" />
     <feature name="HybridBridge">
         <param name="android-package" value="org.sample.hybrid.HybridBridge" />
     </feature>

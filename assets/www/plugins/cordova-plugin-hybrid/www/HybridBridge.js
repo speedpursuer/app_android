@@ -26,6 +26,10 @@ HybridBridge.prototype.moveToBack = function(successCallback, errorCallback) {
     exec(successCallback, errorCallback, "HybridBridge", "moveToBack", []);
 };
 
+HybridBridge.prototype.showFavorite = function(successCallback, errorCallback) {
+    exec(successCallback, errorCallback, "HybridBridge", "showFavorite", []);
+};
+
 module.exports = new HybridBridge();
 
 

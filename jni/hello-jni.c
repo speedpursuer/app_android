@@ -24,3 +24,11 @@ jstring Java_com_lee_cliplay_HelloJNI_pwdFromJNI( JNIEnv* env, jobject thiz ) {
 jstring Java_com_lee_cliplay_HelloJNI_keyFromJNI( JNIEnv* env, jobject thiz ) {
     return (*env)->NewStringUTF(env, "jordankobelebron");
 }
+
+jstring Java_com_lee_cliplay_HelloJNI_dbNameFromJNI( JNIEnv* env, jobject thiz ) {
+    return (*env)->NewStringUTF(env, "cliplay_prod_new");
+}
+
+jstring Java_com_lee_cliplay_HelloJNI_apiKeyFromJNI( JNIEnv* env, jobject thiz ) {
+    return (*env)->NewStringUTF(env, "10YipKN8jSfOn0t5e1NbBwXl");
+}

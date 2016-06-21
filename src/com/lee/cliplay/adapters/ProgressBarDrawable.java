@@ -109,7 +109,7 @@ public class ProgressBarDrawable extends Drawable {
 
     @Override
     public void draw(Canvas canvas) {
-        if (mHideWhenZero && mLevel == 0) {
+        if (mHideWhenZero && (mLevel == 0 || mLevel == 10000)) {
             return;
         }
         drawBar(canvas, 10000, mBackgroundColor);

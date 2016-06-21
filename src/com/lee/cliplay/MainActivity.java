@@ -20,16 +20,8 @@
 package com.lee.cliplay;
 
 import android.app.Activity;
-import android.app.Notification;
-import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.alertdialogpro.AlertDialogPro;
-import com.baidu.android.pushservice.CustomPushNotificationBuilder;
-import com.baidu.android.pushservice.PushConstants;
-import com.baidu.android.pushservice.PushManager;
-import com.facebook.drawee.backends.pipeline.Fresco;
-import com.facebook.imagepipeline.core.ImagePipeline;
 import com.lee.cliplay.Push.CustomApplication;
 
 import org.apache.cordova.CordovaActivity;
@@ -43,7 +35,7 @@ public class MainActivity extends CordovaActivity
     {
         super.onCreate(savedInstanceState);
         mMyApp = (CustomApplication)this.getApplicationContext();
-        setupPushService();
+//        setupPushService(mMyApp.apiKey);
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
     }
@@ -62,81 +54,18 @@ public class MainActivity extends CordovaActivity
             mMyApp.setCurrentActivity(null);
     }
 
-    private void setupPushService() {
-        PushManager.startWork(getApplicationContext(), PushConstants.LOGIN_TYPE_API_KEY, "Sk05U14kHEFgG6hEpiEDczkE");
-        CustomPushNotificationBuilder cBuilder = new CustomPushNotificationBuilder(0, 0, 0, 0);
-        cBuilder.setNotificationFlags(Notification.FLAG_AUTO_CANCEL);
-        cBuilder.setNotificationDefaults(Notification.DEFAULT_VIBRATE);
-        cBuilder.setStatusbarIcon(this.getApplicationInfo().icon);
-        cBuilder.setNotificationSound("android.resource://" + getPackageName() + "/" + R.raw.sound);
-        PushManager.setNotificationBuilder(this, 1, cBuilder);
+    @Override
+    public void onPause() {
+        super.onPause();
     }
 
-    public void showDialog(String title, String desc, boolean clean) {
-
-//        if(dialog!= null) dialog = null;
-
-//        TextView view = new TextView(this);
-//        view.setText(title);
-//        view.setGravity(Gravity.CENTER);
-//        view.setTextColor(Color.WHITE);
-//        view.setTextSize(20);
-//
-//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-//
-//        if(!clean) {
-//            builder.setCustomTitle(view)
-//                .setMessage(desc)
-//                .setNegativeButton("好", new DialogInterface.OnClickListener() {
-//                    @Override
-//                    public void onClick(DialogInterface dialogInterface, int i) {
-//                    }
-//                });
-//        }else{
-//            builder.setCustomTitle(view)
-//                .setMessage(desc)
-//                .setPositiveButton("删除", new DialogInterface.OnClickListener() {
-//                    @Override
-//                    public void onClick(DialogInterface dialogInterface, int i) {
-//                        ImagePipeline imagePipeline = Fresco.getImagePipeline();
-//                        imagePipeline.clearCaches();
-//                    }
-//                })
-//                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
-//                    @Override
-//                    public void onClick(DialogInterface dialogInterface, int i) {
-//
-//                    }
-//                });
-//        }
-//
-//        builder.create().show();
-
-
-        AlertDialogPro.Builder builder = new AlertDialogPro.Builder(this);
-        builder.setTitle(title).setMessage(desc);
-
-        if(!clean) {
-            builder.setNegativeButton("好", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                        }
-                    });
-        }else{
-            builder.setPositiveButton("删除", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            ImagePipeline imagePipeline = Fresco.getImagePipeline();
-                            imagePipeline.clearCaches();
-                        }
-                    })
-                    .setNegativeButton("取消", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                        }
-                    });
-        }
-
-        builder.show();
-    }
+//    private void setupPushService(String apiKey) {
+//        PushManager.startWork(getApplicationContext(), PushConstants.LOGIN_TYPE_API_KEY, apiKey);
+//        CustomPushNotificationBuilder cBuilder = new CustomPushNotificationBuilder(0, 0, 0, 0);
+//        cBuilder.setNotificationFlags(Notification.FLAG_AUTO_CANCEL);
+//        cBuilder.setNotificationDefaults(Notification.DEFAULT_VIBRATE);
+//        cBuilder.setStatusbarIcon(this.getApplicationInfo().icon);
+//        cBuilder.setNotificationSound("android.resource://" + getPackageName() + "/" + R.raw.sound);
+//        PushManager.setNotificationBuilder(this, 1, cBuilder);
+//    }
 }

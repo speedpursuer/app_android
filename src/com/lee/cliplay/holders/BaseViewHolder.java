@@ -16,9 +16,11 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.lee.cliplay.ClipActivity;
+import com.lee.cliplay.R;
 import com.lee.cliplay.instrumentation.Instrumented;
 
 /**
@@ -30,32 +32,48 @@ public abstract class BaseViewHolder<V extends View & Instrumented>
 //  private final PerfListener mPerfListener;
   private final View mParentView;
   protected final V mImageView;
+  protected TextView mTextView;
   private Context mContext;
   protected String URL;
   private int screenHeight;
 
-  public BaseViewHolder(
-      Context context,
-      View parentView,
-      V imageView) {
-//      PerfListener perfListener) {
-    super(imageView);
+//  public BaseViewHolder(
+//      Context context,
+//      View parentView,
+//      V imageView) {
+////      PerfListener perfListener) {
+//    super(imageView);
+//    this.mContext = context;
+////    this.mPerfListener = perfListener;
+//    this.mParentView = parentView;
+//    this.mImageView = imageView;
+//    this.screenHeight = this.mContext.getResources().getDisplayMetrics().heightPixels;
+//
+//    if (mParentView != null) {
+//      int size = calcDesiredSize(mParentView.getWidth(), mParentView.getHeight());
+//      updateViewLayoutParams(mImageView, mParentView.getWidth(), size);
+//    }
+//  }
+
+  public BaseViewHolder(Context context, View view, View parentView) {
+    super(view);
     this.mContext = context;
-//    this.mPerfListener = perfListener;
     this.mParentView = parentView;
-    this.mImageView = imageView;
+    this.mImageView = (V)view.findViewById(R.id.id_index_gallery_item_image);
+    this.mTextView = (TextView)view.findViewById(R.id.id_index_gallery_item_text);
+
     this.screenHeight = this.mContext.getResources().getDisplayMetrics().heightPixels;
 
     if (mParentView != null) {
       int size = calcDesiredSize(mParentView.getWidth(), mParentView.getHeight());
-      updateViewLayoutParams(mImageView, size, size);
+      updateViewLayoutParams(mImageView, mParentView.getWidth(), size);
     }
   }
 
-  public void bind(String model, int position) {
+  public void bind(String url, String desc, int position) {
     mImageView.initInstrumentation(Integer.toString(position));
 //    mImageView.initInstrumentation(Integer.toString(position), mPerfListener);
-    onBind(model);
+    onBind(url, desc);
   }
 
   public V getImageView() {
@@ -67,7 +85,7 @@ public abstract class BaseViewHolder<V extends View & Instrumented>
   /**
    * Load an image of the specified uri into the view, asynchronously.
    */
-  protected abstract void onBind(String uri);
+  protected abstract void onBind(String uri, String desc);
 
   protected Context getContext() {
     return mContext;
@@ -77,7 +95,8 @@ public abstract class BaseViewHolder<V extends View & Instrumented>
     ViewGroup.LayoutParams layoutParams = view.getLayoutParams();
     if (layoutParams == null || layoutParams.height != width || layoutParams.width != height) {
 //      layoutParams = new AbsListView.LayoutParams(width, height);
-      layoutParams = new AbsListView.LayoutParams(width, (int)(screenHeight/2.5));
+//      layoutParams = new RelativeLayout.LayoutParams(width, (int)(screenHeight/2.5));
+      layoutParams = new LinearLayout.LayoutParams(width, (int)(screenHeight/2.5));
       view.setLayoutParams(layoutParams);
     }
   }

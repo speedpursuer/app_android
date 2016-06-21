@@ -18,4 +18,8 @@ public class HelloJNI {
     public static native String pwdFromJNI();
 
     public static native String keyFromJNI();
+
+    public static native String dbNameFromJNI();
+
+    public static native String apiKeyFromJNI();
 }

@@ -16,6 +16,7 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 
 import com.lee.cliplay.holders.BaseViewHolder;
+import com.lee.cliplay.holders.HeaderViewHolder;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -23,36 +24,50 @@ import java.util.List;
 /**
  * Base class for RecyclerView Adapters
  */
-public abstract class ImageListAdapter extends RecyclerView.Adapter<BaseViewHolder<?>> {
+public abstract class ImageListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
 //  private final PerfListener mPerfListener;
 
+  protected static final int TYPE_HEADER = 0;
+  protected static final int TYPE_ITEM = 1;
   private final Context mContext;
 
-  private List<String> mModel;
+  private List<Clip> mModel;
+  private String header;
 
 //  public ImageListAdapter(final Context context, final PerfListener perfListener) {
   public ImageListAdapter(final Context context) {
     this.mContext = context;
 //    this.mPerfListener = perfListener;
-    this.mModel = new LinkedList<String>();
+    this.mModel = new LinkedList<Clip>();
   }
 
-  public void addUrl(final String url) {
-    mModel.add(url);
+  public void addUrl(final Clip clip) {
+    mModel.add(clip);
   }
 
 //  protected PerfListener getPerfListener() {
 //    return mPerfListener;
 //  }
 
-  protected String getItem(final int position) {
-    return mModel.get(position);
+  protected Clip getItem(final int position) {
+    return mModel.get(position - 1);
+  }
+
+  private boolean isPositionHeader(int position) {
+    return position == 0;
+  }
+
+  @Override
+  public int getItemViewType(int position) {
+    if (isPositionHeader(position))
+      return TYPE_HEADER;
+    return TYPE_ITEM;
   }
 
   @Override
   public int getItemCount() {
-    return mModel.size();
+    return mModel.size() + 1;
   }
 
   protected Context getContext() {
@@ -64,8 +79,17 @@ public abstract class ImageListAdapter extends RecyclerView.Adapter<BaseViewHold
   }
 
   @Override
-  public void onBindViewHolder(BaseViewHolder<?> holder, int position) {
-    holder.bind(getItem(position), position);
+  public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+    if (holder instanceof BaseViewHolder) {
+      Clip clip = getItem(position);
+      ((BaseViewHolder)holder).bind(clip.getUrl(), clip.getDesc(), position);
+    }else {
+      ((HeaderViewHolder)holder).setHeaderText(header);
+    }
+  }
+
+  public void setHeader(String header) {
+    this.header = header;
   }
 
   /**
