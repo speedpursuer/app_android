@@ -3,6 +3,7 @@ package com.lee.cliplay;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.pm.ConfigurationInfo;
 import android.content.pm.FeatureInfo;
 import android.opengl.GLSurfaceView;
@@ -10,7 +11,11 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
+
+import com.alertdialogpro.AlertDialogPro;
+import com.lee.cliplay.configs.LocalDataMgr;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -59,8 +64,9 @@ public class GifActivity extends Activity {
     private int screenWidth;
     private int screenHeight;
     private int noOfFrames;
-//    private float theImpactPoint;
-//    private boolean isRunning;
+    private float startPoint;
+    private boolean isRunning = false;
+    private static final String TIP_FLAG = "showGifTip";
 
     private static final String VERTEX_SHADER_CODE =
             "attribute vec4 position;" +
@@ -105,20 +111,28 @@ public class GifActivity extends Activity {
         glSurfaceView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-//                switch (event.getAction()) {
-//                    case MotionEvent.ACTION_DOWN:
-//                        theImpactPoint = event.getX();
-//                        break;
-//                    case MotionEvent.ACTION_UP:
-//                        if(Math.abs(theImpactPoint - event.getX()) > 20) {
-//                            return true;
-//                        }
-//                        break;
-//                    default:
-//                        break;
-//                }
 
-                goToFrames(event.getX());
+                boolean isMoved = Math.abs(startPoint - event.getX()) > 20? true: false;
+
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        startPoint = event.getX();
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        if(!isMoved) {
+                            repeat();
+                        }
+                        break;
+                    case MotionEvent.ACTION_MOVE:
+                        if(isMoved) {
+                            stop();
+                            goToFrames(event.getX());
+                        }
+                        break;
+                    default:
+                        break;
+                }
+
                 return true;
             }
         });
@@ -126,14 +140,15 @@ public class GifActivity extends Activity {
 //        glSurfaceView.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
-//                synchronized (GifActivity.this) {
-//                    if(isRunning) {
-//                        mGifTexImage2D.stopDecoderThread();
-//                        isRunning = false;
-//                    }else {
-//                        mGifTexImage2D.startDecoderThread();
-//                        isRunning = true;
-//                    }
+////                synchronized (GifActivity.this) {
+////
+////                }
+//                if(isRunning) {
+//                    mGifTexImage2D.stopDecoderThread();
+//                    isRunning = false;
+//                }else {
+//                    mGifTexImage2D.startDecoderThread();
+//                    isRunning = true;
 //                }
 //            }
 //        });
@@ -171,9 +186,35 @@ public class GifActivity extends Activity {
 
         mGifTexImage2D.seekToFrame(0);
 
-//        isRunning = true;
+        play();
 
         setLayout(glSurfaceView);
+
+        if(LocalDataMgr.getShowTipFlag(TIP_FLAG)) addTipDialog();
+    }
+
+    private void play(){
+        if(!isRunning) {
+            mGifTexImage2D.startDecoderThread();
+            isRunning = true;
+        }
+    }
+
+    private void stop(){
+        if(isRunning) {
+            mGifTexImage2D.stopDecoderThread();
+            isRunning = false;
+        }
+    }
+
+    private void repeat(){
+        if(isRunning) {
+            mGifTexImage2D.stopDecoderThread();
+            isRunning = false;
+        }else {
+            mGifTexImage2D.startDecoderThread();
+            isRunning = true;
+        }
     }
 
     public void goToFrames(float position) {
@@ -292,5 +333,30 @@ public class GifActivity extends Activity {
         final boolean supportsEs2 = configurationInfo.reqGlEsVersion >= 0x20000;
 
         return supportsEs2;
+    }
+
+    private void addTipDialog() {
+        ImageView imageView = new ImageView(this);
+        imageView.setImageResource(R.drawable.tip);
+
+        AlertDialogPro.Builder builder = new AlertDialogPro.Builder(this);
+        builder.setTitle("操作说明")
+                .setMessage("图中点击暂停／播放。滑动前进后退。")
+                .setPositiveButton("知道了", new ButtonClickedListener("Dismiss"))
+                .setView(imageView)
+                .show();
+    }
+
+    private class ButtonClickedListener implements DialogInterface.OnClickListener {
+        private CharSequence mShowWhenClicked;
+
+        public ButtonClickedListener(CharSequence showWhenClicked) {
+            mShowWhenClicked = showWhenClicked;
+        }
+
+        @Override
+        public void onClick(DialogInterface dialog, int which) {
+            LocalDataMgr.setShowTipFlag(TIP_FLAG);
+        }
     }
 }

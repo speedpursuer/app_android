@@ -17,6 +17,7 @@ import android.graphics.Canvas;
 import android.graphics.drawable.Animatable;
 import android.net.Uri;
 import android.util.AttributeSet;
+import android.view.View;
 
 import com.facebook.drawee.controller.AbstractDraweeControllerBuilder;
 import com.facebook.drawee.controller.BaseControllerListener;
@@ -25,6 +26,9 @@ import com.facebook.drawee.generic.GenericDraweeHierarchy;
 import com.facebook.drawee.interfaces.SimpleDraweeControllerBuilder;
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.lee.cliplay.ClipActivity;
+import com.lee.cliplay.configs.LocalDataMgr;
+import com.like.LikeButton;
+import com.like.OnLikeListener;
 
 import javax.annotation.Nullable;
 
@@ -37,6 +41,9 @@ public class InstrumentedDraweeView extends SimpleDraweeView implements Instrume
   private ControllerListener<Object> mListener;
   private Context context;
   private int position;
+  public LikeButton mlikeButton;
+  public String url;
+
 
   public InstrumentedDraweeView(Context context, GenericDraweeHierarchy hierarchy) {
     super(context, hierarchy);
@@ -67,7 +74,11 @@ public class InstrumentedDraweeView extends SimpleDraweeView implements Instrume
     mListener = new BaseControllerListener<Object>() {
       @Override
       public void onSubmit(String id, Object callerContext) {
-//        mInstrumentation.onStart();
+        if(LocalDataMgr.isFavoriate(url)){
+          mlikeButton.setLiked(true);
+        }else{
+          mlikeButton.setLiked(false);
+        }
       }
       @Override
       public void onFinalImageSet(
@@ -80,8 +91,8 @@ public class InstrumentedDraweeView extends SimpleDraweeView implements Instrume
           if(activity.isVisible(position)) {
             animatable.start();
           }
-//          FLog.w("Cliplay", "Position %s", tag);
         }
+        mlikeButton.setVisibility(View.VISIBLE);
       }
       @Override
       public void onFailure(String id, Throwable throwable) {
@@ -99,8 +110,19 @@ public class InstrumentedDraweeView extends SimpleDraweeView implements Instrume
   @Override
 //  public void initInstrumentation(String tag, PerfListener perfListener) {
   public void initInstrumentation(String tag) {
-//    mInstrumentation.init(tag, perfListener);
     this.position = Integer.valueOf(tag).intValue();
+    mlikeButton.setVisibility(View.INVISIBLE);
+    mlikeButton.setOnLikeListener(new OnLikeListener() {
+      @Override
+      public void liked(LikeButton likeButton) {
+        LocalDataMgr.setFavoriate(url);
+      }
+
+      @Override
+      public void unLiked(LikeButton likeButton) {
+        LocalDataMgr.unsetFavoriate(url);
+      }
+    });
   }
 
   @Override

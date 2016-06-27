@@ -8,12 +8,137 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="fa617d18-8fe0-4d5a-b9c9-239a56c30f3e" name="Default" comment="" />
+    <list default="true" readonly="true" id="2383c4ae-5cb3-4ade-8211-65aee455d063" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/accessibility_test_framework_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/alertdialogpro_core_0_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/alertdialogpro_theme_material_0_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_base_0_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_base_support_0_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_gif_0_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ant_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ant_launcher_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_5_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_analysis_5_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_commons_5_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_tree_5_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_util_5_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/assertj_core_1_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bcprov_jdk16_1_46.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bolts_android_1_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/conceal_1_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/concurrentunit_0_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/drawee_0_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/fbcore_0_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/fresco_0_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/icu4j_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/imagepipeline_0_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/imagepipeline_base_0_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/imagepipeline_okhttp3_0_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jsr305_3_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_ant_tasks_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mockito_core_1_10_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/objenesis_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/okhttp_3_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/okio_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/pushservice_5_0_0_66.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_flexibledivider_1_2_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_annotations_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_resources_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_utils_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/shadows_core_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/sqlite4java_0_282.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/vtd_xml_2_11.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.11/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.11/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.11/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.11/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_CordovaLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_CordovaLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_CordovaLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_CordovaLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_android-gif-drawable_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.11/tasks/_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/arm64-v8a/libhello-jni.so" afterPath="$PROJECT_DIR$/libs/arm64-v8a/libhello-jni.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/armeabi-v7a/libhello-jni.so" afterPath="$PROJECT_DIR$/libs/armeabi-v7a/libhello-jni.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/armeabi/libhello-jni.so" afterPath="$PROJECT_DIR$/libs/armeabi/libhello-jni.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/mips/libhello-jni.so" afterPath="$PROJECT_DIR$/libs/mips/libhello-jni.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/mips64/libhello-jni.so" afterPath="$PROJECT_DIR$/libs/mips64/libhello-jni.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/x86/libhello-jni.so" afterPath="$PROJECT_DIR$/libs/x86/libhello-jni.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/x86_64/libhello-jni.so" afterPath="$PROJECT_DIR$/libs/x86_64/libhello-jni.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cliplay.iml" afterPath="$PROJECT_DIR$/Cliplay.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/css/app.css" afterPath="$PROJECT_DIR$/assets/www/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/index.html" afterPath="$PROJECT_DIR$/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/plugins/cordova-plugin-hybrid/www/HybridBridge.js" afterPath="$PROJECT_DIR$/assets/www/plugins/cordova-plugin-hybrid/www/HybridBridge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/templates/news.html" afterPath="$PROJECT_DIR$/assets/www/templates/news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/hello-jni.c" afterPath="$PROJECT_DIR$/jni/hello-jni.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_list_item.xml" afterPath="$PROJECT_DIR$/res/layout/activity_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/header_item.xml" afterPath="$PROJECT_DIR$/res/layout/header_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lee/cliplay/ClipActivity.java" afterPath="$PROJECT_DIR$/src/com/lee/cliplay/ClipActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lee/cliplay/GifActivity.java" afterPath="$PROJECT_DIR$/src/com/lee/cliplay/GifActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lee/cliplay/Push/CustomApplication.java" afterPath="$PROJECT_DIR$/src/com/lee/cliplay/Push/CustomApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java" afterPath="$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lee/cliplay/adapters/ImageListAdapter.java" afterPath="$PROJECT_DIR$/src/com/lee/cliplay/adapters/ImageListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lee/cliplay/adapters/PreCachingLayoutManager.java" afterPath="$PROJECT_DIR$/src/com/lee/cliplay/adapters/PreCachingLayoutManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lee/cliplay/configs/ConfigConstants.java" afterPath="$PROJECT_DIR$/src/com/lee/cliplay/configs/ConfigConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lee/cliplay/holders/BaseViewHolder.java" afterPath="$PROJECT_DIR$/src/com/lee/cliplay/holders/BaseViewHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lee/cliplay/holders/FrescoHolder.java" afterPath="$PROJECT_DIR$/src/com/lee/cliplay/holders/FrescoHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java" afterPath="$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sample/hybrid/HybridBridge.java" afterPath="$PROJECT_DIR$/src/org/sample/hybrid/HybridBridge.java" />
+    </list>
     <ignored path="Cliplay.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/assets/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/blame/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/bundles/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/classes/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/dependency-cache/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental-safeguard/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/jniLibs/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/lint/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/res/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/rs/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/shaders/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/symbols/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/intermediates/transforms/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/outputs/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/build/tmp/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/android-gif-drawable/.gradle/" />
+    <ignored path="$PROJECT_DIR$/android-gif-drawable/build/" />
+    <ignored path="$PROJECT_DIR$/CordovaLib/.gradle/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +151,11 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -38,31 +168,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseViewHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/BaseViewHolder.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.074074">
-              <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrescoHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/FrescoHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8333333">
-              <caret line="60" column="23" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.4186851">
+              <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,44 +184,9 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.967742">
-              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state vertical-scroll-proportion="-9.290322">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClipActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/ClipActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.962963">
-              <caret line="264" column="28" selection-start-line="264" selection-start-column="28" selection-end-line="264" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrescoAdapter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8811881">
-              <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageListAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/ImageListAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.555555">
-              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-              <folding>
-                <element signature="e#1544#1545#0" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -122,10 +197,56 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.193548">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state vertical-scroll-proportion="-5.806452">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="title_item.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/title_item.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.645161">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.72727275">
+              <caret line="1" column="95" selection-start-line="1" selection-start-column="95" selection-end-line="1" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseViewHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/BaseViewHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstrumentedDraweeView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-51.555557">
+              <caret line="144" column="3" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
               <folding>
-                <element signature="e#687#724#0" expanded="true" />
+                <element signature="e#3863#3864#0" expanded="true" />
+                <element signature="e#3911#3912#0" expanded="true" />
+                <element signature="e#3979#3980#0" expanded="true" />
+                <element signature="e#4029#4030#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,21 +258,35 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.0">
-              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state vertical-scroll-proportion="-4.064516">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeaderViewHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/HeaderViewHolder.java">
+      <file leaf-file-name="activity_gif.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_gif.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom_title_bar.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/custom_title_bar.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8709676">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,9 +296,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
-        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -171,6 +305,9 @@
     <option name="KEY_STORE_PATH" value="$APPLICATION_HOME_DIR$/bin/key.store" />
     <option name="KEY_ALIAS" value="cliplay" />
     <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -670,9 +807,14 @@
                 <option name="name" value="prepareCliplayCordovaLibUnspecifiedReleaseLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:23.1.1" />
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:23.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72311Library" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2320Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:23.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72320Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:recyclerview-v7:23.1.1" />
@@ -680,9 +822,14 @@
                 <option name="name" value="prepareComAndroidSupportRecyclerviewV72311Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:23.1.1" />
+                <option name="description" value="Prepare com.android.support:support-v4:23.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42311Library" />
+                <option name="name" value="prepareComAndroidSupportSupportV42320Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:23.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2320Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.facebook.conceal:conceal:1.0.3" />
@@ -745,6 +892,11 @@
                 <option name="name" value="prepareComGithubFengdaiAlertdialogproThemeMaterial026Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.github.jd-alexander:LikeButton:0.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGithubJdAlexanderLikeButton020Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.yqritc:recyclerview-flexibledivider:1.2.9" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComYqritcRecyclerviewFlexibledivider129Library" />
@@ -762,9 +914,9 @@
                 <option name="name" value="prepareDebugUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare pl.droidsonroids.gif:android-gif-drawable:1.1.16.3-SNAPSHOT" />
+                <option name="description" value="Prepare pl.droidsonroids.gif:android-gif-drawable:1.1.17-SNAPSHOT" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="preparePlDroidsonroidsGifAndroidGifDrawable11163SNAPSHOTLibrary" />
+                <option name="name" value="preparePlDroidsonroidsGifAndroidGifDrawable1117SNAPSHOTLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -2361,7 +2513,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="10247863000000" />
+        <entry key="$PROJECT_DIR$" value="10256223261000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2378,7 +2530,6 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.10.0/53c1739b3f2f23e43f92366e89e8f973f599a4ea/fresco-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.10.0/8576630feea3d08eb681dec389a472623179f84d/fresco-0.10.0.aar" />
-                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/c6e2cb305d0da8820c335f20db73bfc69b2156ed/okhttp-3.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar" />
@@ -2392,14 +2543,13 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yqritc/recyclerview-flexibledivider/1.2.9/88ee7243825c2084b01b14565c4a3729e742fcc7/recyclerview-flexibledivider-1.2.9.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengdai/alertdialogpro-theme-material/0.2.6/388f3b3d5bc4d2e13b4ca919892f28254d974c29/alertdialogpro-theme-material-0.2.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengdai/alertdialogpro-theme-material/0.2.6/1a0ec696037c3a849620fece647720dda36798b8/alertdialogpro-theme-material-0.2.6.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jd-alexander/LikeButton/0.2.0/6fd6bb3711cc4b84cdcbe1a21b2c3b69fc9fd0a5/LikeButton-0.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.10.0/8b370c924aa0194a83479472b0fb296e8666542/drawee-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.10.0/c594f9c23f844d08ecd4c0e42df40d80767d4b18/drawee-0.10.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.10.0/96a23e6876d35c522bb0fe7c4d8a30bf57be0385/fbcore-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.10.0/4650dd9a46064c254e0468bba23804e8f32e6144/fbcore-0.10.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline/0.10.0/c11c5e1248c42f15d7209c473dc7bf20394b88d/imagepipeline-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline/0.10.0/ecec308b714039dd9e0cf4b7595a427765f43a01/imagepipeline-0.10.0.aar" />
-                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
-                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/fb6ec0fbaa0229088b0d3dfe3b1f9d24add3e775/okio-1.6.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/animated-base/0.10.0/6e02e65e185f15aec828b504145d6131bee76a49/animated-base-0.10.0-sources.jar" />
@@ -2412,6 +2562,11 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengdai/alertdialogpro-core/0.2.6/43dbbb2e373cb31731197a9c65937f6daaa3fff2/alertdialogpro-core-0.2.6.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-base/0.10.0/c61f0733381002d099d71441c1007811fc30d3f/imagepipeline-base-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-base/0.10.0/1390f28d0e4f16b0008fed481eb1b107d93f35b8/imagepipeline-base-0.10.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.2.0/appcompat-v7-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.2.0/animated-vector-drawable-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/23.2.0/support-vector-drawable-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.2.0/support-v4-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar" />
                             <option value="$MODULE_DIR$/libs/pushservice-5.0.0.66.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0/gradle-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0/gradle-core-2.1.0.jar" />
@@ -2504,7 +2659,6 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.10.0/53c1739b3f2f23e43f92366e89e8f973f599a4ea/fresco-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.10.0/8576630feea3d08eb681dec389a472623179f84d/fresco-0.10.0.aar" />
-                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/c6e2cb305d0da8820c335f20db73bfc69b2156ed/okhttp-3.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar" />
@@ -2518,14 +2672,13 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yqritc/recyclerview-flexibledivider/1.2.9/88ee7243825c2084b01b14565c4a3729e742fcc7/recyclerview-flexibledivider-1.2.9.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengdai/alertdialogpro-theme-material/0.2.6/388f3b3d5bc4d2e13b4ca919892f28254d974c29/alertdialogpro-theme-material-0.2.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengdai/alertdialogpro-theme-material/0.2.6/1a0ec696037c3a849620fece647720dda36798b8/alertdialogpro-theme-material-0.2.6.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jd-alexander/LikeButton/0.2.0/6fd6bb3711cc4b84cdcbe1a21b2c3b69fc9fd0a5/LikeButton-0.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.10.0/8b370c924aa0194a83479472b0fb296e8666542/drawee-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.10.0/c594f9c23f844d08ecd4c0e42df40d80767d4b18/drawee-0.10.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.10.0/96a23e6876d35c522bb0fe7c4d8a30bf57be0385/fbcore-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.10.0/4650dd9a46064c254e0468bba23804e8f32e6144/fbcore-0.10.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline/0.10.0/c11c5e1248c42f15d7209c473dc7bf20394b88d/imagepipeline-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline/0.10.0/ecec308b714039dd9e0cf4b7595a427765f43a01/imagepipeline-0.10.0.aar" />
-                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
-                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/fb6ec0fbaa0229088b0d3dfe3b1f9d24add3e775/okio-1.6.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/animated-base/0.10.0/6e02e65e185f15aec828b504145d6131bee76a49/animated-base-0.10.0-sources.jar" />
@@ -2538,6 +2691,11 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengdai/alertdialogpro-core/0.2.6/43dbbb2e373cb31731197a9c65937f6daaa3fff2/alertdialogpro-core-0.2.6.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-base/0.10.0/c61f0733381002d099d71441c1007811fc30d3f/imagepipeline-base-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-base/0.10.0/1390f28d0e4f16b0008fed481eb1b107d93f35b8/imagepipeline-base-0.10.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.2.0/appcompat-v7-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.2.0/animated-vector-drawable-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/23.2.0/support-vector-drawable-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.2.0/support-v4-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar" />
                             <option value="$MODULE_DIR$/libs/pushservice-5.0.0.66.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0/gradle-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0/gradle-core-2.1.0.jar" />
@@ -2630,7 +2788,6 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.10.0/53c1739b3f2f23e43f92366e89e8f973f599a4ea/fresco-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.10.0/8576630feea3d08eb681dec389a472623179f84d/fresco-0.10.0.aar" />
-                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/c6e2cb305d0da8820c335f20db73bfc69b2156ed/okhttp-3.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar" />
@@ -2644,14 +2801,13 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yqritc/recyclerview-flexibledivider/1.2.9/88ee7243825c2084b01b14565c4a3729e742fcc7/recyclerview-flexibledivider-1.2.9.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengdai/alertdialogpro-theme-material/0.2.6/388f3b3d5bc4d2e13b4ca919892f28254d974c29/alertdialogpro-theme-material-0.2.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengdai/alertdialogpro-theme-material/0.2.6/1a0ec696037c3a849620fece647720dda36798b8/alertdialogpro-theme-material-0.2.6.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jd-alexander/LikeButton/0.2.0/6fd6bb3711cc4b84cdcbe1a21b2c3b69fc9fd0a5/LikeButton-0.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.10.0/8b370c924aa0194a83479472b0fb296e8666542/drawee-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.10.0/c594f9c23f844d08ecd4c0e42df40d80767d4b18/drawee-0.10.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.10.0/96a23e6876d35c522bb0fe7c4d8a30bf57be0385/fbcore-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.10.0/4650dd9a46064c254e0468bba23804e8f32e6144/fbcore-0.10.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline/0.10.0/c11c5e1248c42f15d7209c473dc7bf20394b88d/imagepipeline-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline/0.10.0/ecec308b714039dd9e0cf4b7595a427765f43a01/imagepipeline-0.10.0.aar" />
-                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
-                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/fb6ec0fbaa0229088b0d3dfe3b1f9d24add3e775/okio-1.6.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/animated-base/0.10.0/6e02e65e185f15aec828b504145d6131bee76a49/animated-base-0.10.0-sources.jar" />
@@ -2664,6 +2820,11 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengdai/alertdialogpro-core/0.2.6/43dbbb2e373cb31731197a9c65937f6daaa3fff2/alertdialogpro-core-0.2.6.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-base/0.10.0/c61f0733381002d099d71441c1007811fc30d3f/imagepipeline-base-0.10.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-base/0.10.0/1390f28d0e4f16b0008fed481eb1b107d93f35b8/imagepipeline-base-0.10.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.2.0/appcompat-v7-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.2.0/animated-vector-drawable-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/23.2.0/support-vector-drawable-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.2.0/support-v4-23.2.0.aar" />
+                            <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar" />
                             <option value="$MODULE_DIR$/libs/pushservice-5.0.0.66.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0/gradle-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0/gradle-core-2.1.0.jar" />
@@ -2891,38 +3052,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/Push/MyPushMessageReceiver.java" />
-        <option value="$PROJECT_DIR$/res/values/seekbar_define_style.xml" />
-        <option value="$PROJECT_DIR$/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_gif.xml" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/GifActivity.java" />
-        <option value="$PROJECT_DIR$/assets/www/js/app.js" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/configs/imagepipeline/ImagePipelineConfigFactory.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/util/DeviceUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/adapters/PreCachingLayoutManager.java" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/adapters/ProgressBarDrawable.java" />
-        <option value="$PROJECT_DIR$/jni/hello-jni.c" />
-        <option value="$PROJECT_DIR$/assets/www/plugins/cordova-plugin-hybrid/www/HybridBridge.js" />
-        <option value="$PROJECT_DIR$/src/org/sample/hybrid/HybridBridge.java" />
-        <option value="$PROJECT_DIR$/res/xml/config.xml" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/HelloJNI.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/Push/CustomApplication.java" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/configs/ConfigConstants.java" />
-        <option value="$PROJECT_DIR$/res/drawable-hdpi/divider.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/holders/VHHeader.java" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/adapters/Clip.java" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/holders/BaseViewHolder.java" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/ClipActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/lee/cliplay/holders/HeaderViewHolder.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/res/layout/header_item.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_index_gallery_item.xml" />
+        <option value="$PROJECT_DIR$/src/com/lee/cliplay/holders/TitleHolder.java" />
+        <option value="$PROJECT_DIR$/src/com/lee/cliplay/holders/TitleViewHolder.java" />
+        <option value="$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/title_item.xml" />
+        <option value="$PROJECT_DIR$/src/com/lee/cliplay/adapters/PreCachingLayoutManager.java" />
         <option value="$PROJECT_DIR$/src/com/lee/cliplay/holders/FrescoHolder.java" />
         <option value="$PROJECT_DIR$/src/com/lee/cliplay/adapters/ImageListAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/lee/cliplay/ClipActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java" />
+        <option value="$PROJECT_DIR$/src/com/lee/cliplay/holders/BaseViewHolder.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_list_item.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -2931,42 +3075,14 @@
     <option name="width" value="1280" />
     <option name="height" value="773" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -2984,7 +3100,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cliplay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cliplay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3016,14 +3161,6 @@
               <option name="myItemId" value="Cliplay" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3035,131 +3172,17 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instrumentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="holders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cliplay" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -3186,8 +3209,6 @@
       <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <Hybrid>
         <option name="WORKING_DIR" value="" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
@@ -3221,8 +3242,6 @@
       <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <Hybrid>
         <option name="WORKING_DIR" value="" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
@@ -3398,8 +3417,6 @@
       <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <Hybrid>
         <option name="WORKING_DIR" value="" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
@@ -3439,48 +3456,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fa617d18-8fe0-4d5a-b9c9-239a56c30f3e" name="Default" comment="" />
-      <created>1465697974238</created>
+      <changelist id="2383c4ae-5cb3-4ade-8211-65aee455d063" name="Default" comment="" />
+      <created>1466929402675</created>
       <option name="number" value="Default" />
-      <updated>1465697974238</updated>
+      <updated>1466929402675</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03500761" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07762557" sideWeight="0.88045233" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18112633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14003044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07328244" sideWeight="0.11954766" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08371385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.31502423" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10823909" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31744748" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22051696" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3489,34 +3497,34 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37747335" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07328244" sideWeight="0.88045233" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07328244" sideWeight="0.11954766" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24151857" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11631664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21526718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07001522" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.31502423" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3534,301 +3542,468 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/Push/CustomApplication.java</url>
-          <line>112</line>
+          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java</url>
+          <line>81</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java</url>
-          <line>86</line>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/holders/HeaderViewHolder.java</url>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/ClipActivity.java</url>
-          <line>364</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/sample/hybrid/HybridBridge.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/Push/CustomApplication.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/Push/CustomApplication.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/MainActivity.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/ClipActivity.java</url>
-          <line>158</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/ImageListAdapter.java</url>
-          <line>87</line>
+          <line>99</line>
           <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/holders/BaseViewHolder.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java</url>
-          <line>93</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java</url>
-          <line>107</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java</url>
-          <line>113</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lee/cliplay/holders/BaseViewHolder.java</url>
-          <line>94</line>
-          <properties />
-          <option name="timeStamp" value="49" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="50" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/util/DeviceUtils.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#858#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/Encrypt/CustomSharedPrefsBackedKeyChain.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jni/hello-jni.c">
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/ClipActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#5302#5303#0" expanded="false" />
+            <element signature="e#5333#5334#0" expanded="false" />
+            <element signature="e#5919#5920#0" expanded="false" />
+            <element signature="e#5952#5953#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform_www/plugins/cordova-plugin-hybrid/www/HybridBridge.js">
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#3411#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3380#3381#0" expanded="false" />
+            <element signature="e#3407#3408#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#858#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-gif-drawable/src/test/java/pl/droidsonroids/gif/MultiCallbackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/plugins/cordova-plugin-hybrid/www/HybridBridge.js">
+    <entry file="file://$PROJECT_DIR$/Cliplay.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.42105263">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/Push/MyPushMessageReceiver.java">
+    <entry file="file://$PROJECT_DIR$/android-gif-drawable/src/test/java/pl/droidsonroids/gif/MultiCallbackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.5839416">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/Encrypt/Encryption.java">
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-23/android.jar!/android/widget/RelativeLayout.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.5081967">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/sample/hybrid/HybridBridge.java">
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.121212">
-          <caret line="86" column="51" selection-start-line="86" selection-start-column="51" selection-end-line="86" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/ProgressBarDrawable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-23/android.jar!/android/app/Application.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3636365">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/HelloJNI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.10.0/53c1739b3f2f23e43f92366e89e8f973f599a4ea/fresco-0.10.0-sources.jar!/com/facebook/drawee/backends/pipeline/Fresco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59511346">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/Drawables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6701571">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-23/android.jar!/java/util/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3995381">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline/0.10.0/c11c5e1248c42f15d7209c473dc7bf20394b88d/imagepipeline-0.10.0-sources.jar!/com/facebook/imagepipeline/core/ImagePipelineConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="363" column="39" selection-start-line="363" selection-start-column="19" selection-end-line="363" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-23/android.jar!/android/app/Notification.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36347827">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/configs/imagepipeline/ImagePipelineConfigFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36852208">
-          <caret line="93" column="39" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/configs/ConfigConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50671786">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-23/android.jar!/android/content/res/Resources.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06685237">
-          <caret line="192" column="26" selection-start-line="192" selection-start-column="26" selection-end-line="192" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CordovaLib/src/org/apache/cordova/CordovaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="226" column="19" selection-start-line="226" selection-start-column="19" selection-end-line="226" selection-end-column="19" />
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
-            <element signature="e#0#17642#0" expanded="false" />
+            <element signature="e#0#2510#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#7036#7037#0" expanded="false" />
-            <element signature="e#7102#7103#0" expanded="false" />
-            <element signature="e#13131#13132#0" expanded="false" />
-            <element signature="e#13222#13223#0" expanded="false" />
+            <element signature="e#1832#1833#0" expanded="false" />
+            <element signature="e#1863#1864#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-23/android.jar!/android/content/Context.class">
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8703704">
-          <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4409" column="0" selection-start-line="4409" selection-start-column="0" selection-end-line="4409" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.10.0/8b370c924aa0194a83479472b0fb296e8666542/drawee-0.10.0-sources.jar!/com/facebook/drawee/view/SimpleDraweeView.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/source/r/debug/com/lee/cliplay/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28053436">
+          <caret line="2189" column="32" selection-start-line="2189" selection-start-column="32" selection-end-line="2189" selection-end-column="32" />
+          <folding>
+            <marker date="1467022577000" expanded="true" signature="5058:5285" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="5356:5583" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="5656:5883" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="5949:6176" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="6254:6644" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="6717:6944" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="7018:7245" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="7325:7552" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="7932:8159" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="8234:8461" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="8537:8764" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="8841:9068" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="9148:9375" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="9456:9683" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="9760:9987" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="10066:10293" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="10362:10589" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="10670:10897" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="10976:11203" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="11280:11649" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="11722:12091" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="12160:12387" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="12465:13218" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="13292:13519" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="13596:13823" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="13908:14135" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="14219:14446" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="14531:14758" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="14829:15056" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="15137:15364" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="15427:15654" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="15722:15949" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="16024:16251" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="16322:16841" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="16915:17142" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="17221:17611" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="17685:17912" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="17979:18206" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="18292:18519" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="18606:18833" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="18911:19138" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="19216:19443" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="19514:19741" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="19820:20339" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="20410:20637" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="20718:21055" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="21133:21360" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="21433:21660" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="21733:21960" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="22030:22257" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="22327:22664" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="22731:23051" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="23122:23641" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="23710:24229" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="24299:24526" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="24605:24832" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="24896:25123" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="25192:25582" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="25651:26041" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="26112:26534" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="26602:27119" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="27191:27710" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="27773:28000" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="28075:28302" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="28376:28603" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="28685:28912" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="28993:29220" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="29302:29529" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="29597:29824" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="29899:30126" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="30191:30418" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="30488:30910" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="30974:31491" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="31559:31786" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="31853:32080" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="32154:32544" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="32614:33004" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="33076:33303" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="33366:33593" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="33662:34031" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="34111:34338" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="34404:34826" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="34885:35307" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="35372:35794" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="35865:36287" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="36362:36784" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="36859:37281" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="37353:37775" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="37841:38263" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="38333:38755" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="38831:39058" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="39122:39641" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="39710:40229" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="40299:40818" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="40889:41408" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="41479:41706" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="41777:42004" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="42080:42449" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="42519:43038" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="43114:43341" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="43406:44085" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="44153:44380" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="44441:44668" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="44739:45258" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="45326:45553" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="45622:46012" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="46084:46474" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="46548:47067" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="47133:47360" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="47430:47657" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="47732:48251" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="48336:48563" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="48635:49025" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="49092:49319" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="49386:49905" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="49968:50195" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="50285:50599" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="50665:50892" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="50958:51711" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="51786:52123" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="52193:52712" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="52780:53117" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="53180:53407" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="53467:53986" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="54046:54383" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="54456:54683" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="54754:54981" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="55045:55272" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="55330:55817" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="55880:56249" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="56312:56649" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="56721:56948" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="57018:57245" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="57325:57694" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="57768:58105" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="58171:58508" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="58570:58907" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="58971:59490" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="59555:59782" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="59842:60211" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="60278:60505" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="60572:60909" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="60968:61195" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="61278:61505" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="61581:61808" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="61876:62103" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="62167:62394" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="62468:62987" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="63064:63583" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="63665:64184" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="64266:64785" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="64867:65386" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="65469:65696" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="65754:66123" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="66192:66711" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="66780:67117" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="67194:67421" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="67496:67865" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="67947:68174" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="68242:68640" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="68708:69045" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="69112:69339" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="69405:69924" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="69988:70507" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="70573:70800" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="70869:71096" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="71168:71687" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="71759:71986" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="72056:72809" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="72888:73115" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="73183:73410" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="73474:73701" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="73771:74108" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="74181:74408" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="74486:74800" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="74883:75110" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="75180:75933" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="76012:76531" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="76603:76830" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="76900:77127" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="77196:77565" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="77628:77855" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="77925:78152" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="78220:78447" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="78524:78751" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="78824:79051" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="79115:79868" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="79941:80278" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="80345:80682" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="80749:81086" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="81155:81492" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="81562:81899" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="81965:82302" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="82369:82791" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="82866:83385" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="83458:83880" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="83953:84472" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="84547:85066" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="85139:85366" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="85434:85661" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="85725:85952" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="86021:86248" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="86314:86541" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="86619:86846" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="86934:87483" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="87549:88026" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="88092:88429" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="88491:88718" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="88794:89108" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="89171:89508" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="89570:89797" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="89875:90102" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="90168:90505" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="90569:90796" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="90859:91196" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="91262:91599" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="91671:91898" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="91968:92337" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="92399:92626" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="92702:93124" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="93195:93422" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="93493:93720" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="93793:94312" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="94380:94899" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="94966:95193" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="95258:95485" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="95559:95864" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="95929:96156" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="96238:96465" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="96541:96768" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="96849:97076" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="97164:97391" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="97476:97703" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="97785:98175" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="98257:98647" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="98719:98946" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="99005:99524" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="99587:100106" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="100176:100545" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="100604:101123" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="101194:101713" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="101781:102300" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="102370:102889" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="102957:103476" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="103542:103769" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="103842:104264" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="104332:104559" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="104627:104854" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="104936:105163" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="105229:105456" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="105515:105742" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="105811:106131" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="106200:106427" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="106490:106827" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="106896:107233" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="107309:107646" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="107723:108495" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="108571:109343" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="109419:110191" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="110266:111038" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="111113:111885" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="111958:112730" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="112803:113140" placeholder="/**...*/" />
+            <marker date="1467022577000" expanded="true" signature="113240:113897" placeholder="{...}" />
+            <marker date="1467022577000" expanded="true" signature="113934:119514" placeholder="{...}" />
+            <marker date="1467022577000" expanded="true" signature="119551:126429" placeholder="{...}" />
+            <marker date="1467022577000" expanded="true" signature="126469:133446" placeholder="{...}" />
+            <marker date="1467022577000" expanded="true" signature="133480:141103" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/TitleViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/HeaderViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.10.0/8b370c924aa0194a83479472b0fb296e8666542/drawee-0.10.0-sources.jar!/com/facebook/drawee/view/DraweeView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/Clip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6686047">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/Instrumented.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -3841,66 +4016,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.10.0/8b370c924aa0194a83479472b0fb296e8666542/drawee-0.10.0-sources.jar!/com/facebook/drawee/controller/AbstractDraweeControllerBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="17" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+        <state vertical-scroll-proportion="-4.611111">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/ImageListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3333333">
+          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+          <folding>
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2357#2358#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/PreCachingLayoutManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="56" />
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/Push/CustomApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/ClipActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-23/android.jar!/android/view/Choreographer.class">
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/FrescoHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.111111">
+          <caret line="94" column="75" selection-start-line="94" selection-start-column="68" selection-end-line="94" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/BaseViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-23/android.jar!/android/widget/RelativeLayout.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.15317287">
-          <caret line="131" column="15" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1-sources.jar!/android/support/v7/widget/LinearLayoutManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21917808">
-          <caret line="1960" column="0" selection-start-line="1960" selection-start-column="0" selection-end-line="1960" selection-end-column="0" />
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/InstrumentedDraweeView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        <state vertical-scroll-proportion="-51.555557">
+          <caret line="144" column="3" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
+          <folding>
+            <element signature="e#3863#3864#0" expanded="true" />
+            <element signature="e#3911#3912#0" expanded="true" />
+            <element signature="e#3979#3980#0" expanded="true" />
+            <element signature="e#4029#4030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/custom_title_bar.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8709676">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/configs/DividerItemDecoration.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3317757">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state vertical-scroll-proportion="-4.064516">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -3910,100 +4111,19 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2580647">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/divider.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9354838">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/instrumentation/Instrumented.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33271375">
-          <caret line="3486" column="22" selection-start-line="3486" selection-start-column="22" selection-end-line="3486" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/divider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22556391">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/window_title.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/Clip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/ClipActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.962963">
-          <caret line="264" column="28" selection-start-line="264" selection-start-column="28" selection-end-line="264" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/HeaderViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_list_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state vertical-scroll-proportion="-9.290322">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -4013,67 +4133,36 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.193548">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#687#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/BaseViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.074074">
-          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        <state vertical-scroll-proportion="-5.806452">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/holders/FrescoHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8333333">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/ImageListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.555555">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-          <folding>
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_list_item.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/title_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.967742">
-          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state vertical-scroll-proportion="-4.645161">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lee/cliplay/adapters/FrescoAdapter.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8811881">
-          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-0.72727275">
+          <caret line="1" column="95" selection-start-line="1" selection-start-column="95" selection-end-line="1" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4186851">
+          <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

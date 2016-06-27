@@ -33,5 +33,4 @@ HybridBridge.prototype.showFavorite = function(successCallback, errorCallback) {
 module.exports = new HybridBridge();
 
 
-
 });

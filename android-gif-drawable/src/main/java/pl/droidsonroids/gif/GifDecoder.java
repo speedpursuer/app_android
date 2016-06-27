@@ -3,6 +3,7 @@ package pl.droidsonroids.gif;
 import android.graphics.Bitmap;
 import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 
 import java.io.IOException;
 
@@ -16,13 +17,27 @@ public class GifDecoder {
 	private final GifInfoHandle mGifInfoHandle;
 
 	/**
-	 * Constructs new GifDecoder
-	 *
+	 * Constructs new GifDecoder.
+	 * Equivalent of {@link #GifDecoder(InputSource, GifOptions)} with null {@code options}
 	 * @param inputSource source
 	 * @throws IOException when creation fails
 	 */
-	public GifDecoder(final InputSource inputSource) throws IOException {
+	public GifDecoder(@NonNull final InputSource inputSource) throws IOException {
+		this(inputSource, null);
+	}
+
+	/**
+	 * Constructs new GifDecoder
+	 *
+	 * @param inputSource source
+	 * @param options     null-ok; options controlling subsampling and opacity
+	 * @throws IOException when creation fails
+	 */
+	public GifDecoder(@NonNull final InputSource inputSource, @Nullable final GifOptions options) throws IOException {
 		mGifInfoHandle = inputSource.open();
+		if (options != null) {
+			mGifInfoHandle.setOptions(options.inSampleSize, options.inIsOpaque);
+		}
 	}
 
 	/**
@@ -57,7 +72,7 @@ public class GifDecoder {
 	 *
 	 * @param position position to seek to in milliseconds
 	 * @param buffer   the frame buffer
-	 * @throws IllegalArgumentException if <code>position</code>&lt;0 or <code>buffer</code> is recycled
+	 * @throws IllegalArgumentException if {@code position < 0 }or {@code buffer} is recycled
 	 */
 	public void seekToTime(@IntRange(from = 0, to = Integer.MAX_VALUE) final int position, @NonNull final Bitmap buffer) {
 		checkBuffer(buffer);
@@ -69,7 +84,7 @@ public class GifDecoder {
 	 *
 	 * @param frameIndex position to seek to in milliseconds
 	 * @param buffer     the frame buffer
-	 * @throws IllegalArgumentException if <code>frameIndex</code>&lt;0 or <code>buffer</code> is recycled
+	 * @throws IllegalArgumentException if {@code frameIndex < 0} or {@code buffer} is recycled
 	 */
 	public void seekToFrame(@IntRange(from = 0, to = Integer.MAX_VALUE) final int frameIndex, @NonNull final Bitmap buffer) {
 		checkBuffer(buffer);
@@ -90,7 +105,7 @@ public class GifDecoder {
 	 *
 	 * @param index index of the frame
 	 * @return duration of the given frame in milliseconds
-	 * @throws IndexOutOfBoundsException if index &lt; 0 or index &gt;= number of frames
+	 * @throws IndexOutOfBoundsException if {@code index < 0 || index >= <number of frames>}
 	 */
 	public int getFrameDuration(@IntRange(from = 0) int index) {
 		return mGifInfoHandle.getFrameDuration(index);

@@ -17,6 +17,7 @@ import android.support.v7.widget.RecyclerView;
 
 import com.lee.cliplay.holders.BaseViewHolder;
 import com.lee.cliplay.holders.HeaderViewHolder;
+import com.lee.cliplay.holders.TitleViewHolder;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -30,6 +31,7 @@ public abstract class ImageListAdapter extends RecyclerView.Adapter<RecyclerView
 
   protected static final int TYPE_HEADER = 0;
   protected static final int TYPE_ITEM = 1;
+  protected static final int TYPE_TITLE = 2;
   private final Context mContext;
 
   private List<Clip> mModel;
@@ -58,11 +60,20 @@ public abstract class ImageListAdapter extends RecyclerView.Adapter<RecyclerView
     return position == 0;
   }
 
+  private boolean isPositionTitle(int position) {
+    Clip clip = getItem(position);
+    return !clip.getDesc().equals("");
+  }
+
   @Override
   public int getItemViewType(int position) {
-    if (isPositionHeader(position))
+    if (isPositionHeader(position)) {
       return TYPE_HEADER;
-    return TYPE_ITEM;
+    }else if (isPositionTitle(position)){
+      return TYPE_TITLE;
+    }else {
+      return TYPE_ITEM;
+    }
   }
 
   @Override
@@ -82,9 +93,12 @@ public abstract class ImageListAdapter extends RecyclerView.Adapter<RecyclerView
   public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
     if (holder instanceof BaseViewHolder) {
       Clip clip = getItem(position);
-      ((BaseViewHolder)holder).bind(clip.getUrl(), clip.getDesc(), position);
-    }else {
+      ((BaseViewHolder)holder).bind(clip.getUrl(), position);
+    }else if (holder instanceof HeaderViewHolder) {
       ((HeaderViewHolder)holder).setHeaderText(header);
+    }else {
+      Clip clip = getItem(position);
+      ((TitleViewHolder)holder).setTitle(clip.getDesc());
     }
   }
 

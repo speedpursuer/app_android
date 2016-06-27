@@ -16,7 +16,11 @@ import com.facebook.imagepipeline.core.ImagePipeline;
 import com.lee.cliplay.ClipActivity;
 import com.lee.cliplay.HelloJNI;
 import com.lee.cliplay.R;
+import com.lee.cliplay.configs.LocalDataMgr;
 import com.lee.cliplay.configs.imagepipeline.ImagePipelineConfigFactory;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.IOException;
 
@@ -62,6 +66,7 @@ public class CustomApplication extends Application {
         apiKey = HelloJNI.apiKeyFromJNI();
         setupPushService(apiKey);
         Fresco.initialize(this, ImagePipelineConfigFactory.getOkHttpImagePipelineConfig(this));
+        LocalDataMgr.init(this, dbKey);
     }
 
     @Override
@@ -102,6 +107,15 @@ public class CustomApplication extends Application {
                 if(!app.webViewLoaded) return;
 
                 String responseBody = response.body().string();
+
+                try{
+                    JSONObject dataJson = new JSONObject(responseBody);
+                    String url = dataJson.getString("image");
+                    if(url == null) return;
+                }catch (JSONException e){
+                    e.printStackTrace();
+                    return;
+                }
 
                 Intent intent = new Intent();
 

@@ -178,3 +178,7 @@ image {
 .hidden {
     display: none;
 }
+
+.larger-icon {
+    font-size: 20px;
+}

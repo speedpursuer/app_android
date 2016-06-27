@@ -33,6 +33,7 @@ import com.facebook.imagepipeline.request.ImageRequest;
 import com.facebook.imagepipeline.request.ImageRequestBuilder;
 import com.lee.cliplay.GifActivity;
 import com.lee.cliplay.instrumentation.InstrumentedDraweeView;
+import com.like.LikeButton;
 
 import java.io.File;
 
@@ -58,7 +59,7 @@ public class FrescoHolder extends BaseViewHolder<InstrumentedDraweeView> impleme
   }
 
   @Override
-  protected void onBind(String uriString, String desc) {
+  protected void onBind(String uriString) {
     Uri uri = Uri.parse(uriString);
     ImageRequestBuilder imageRequestBuilder =
         ImageRequestBuilder.newBuilderWithSource(uri);
@@ -78,12 +79,21 @@ public class FrescoHolder extends BaseViewHolder<InstrumentedDraweeView> impleme
         .build();
     mImageView.setController(draweeController);
     URL = uriString;
+    mImageView.url = uriString;
 
-    if(desc.equals("")) {
-      mTextView.setVisibility(View.GONE);
-    }else {
-      mTextView.setText(desc);
-    }
+//    mTextView.setVisibility(View.GONE);
+
+//    if(desc.equals("")) {
+//      mTextView.setVisibility(View.GONE);
+//    }else {
+//      mTextView.setText(desc);
+//    }
+  }
+
+  @Override
+  public void bindLikeButton(View mImageView, View mButton){
+    ((InstrumentedDraweeView)mImageView).mlikeButton = (LikeButton) mButton;
+    ((InstrumentedDraweeView)mImageView).mlikeButton.setIconSizeDp(20);
   }
 
   @Override

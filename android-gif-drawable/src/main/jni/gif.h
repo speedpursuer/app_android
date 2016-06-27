@@ -105,7 +105,7 @@ struct GifInfo {
 	jfloat speedFactor;
 	int32_t stride;
 	jlong sourceLength;
-	jboolean isOpaque;
+	bool isOpaque;
 	void *frameBufferDescriptor;
 };
 
@@ -210,5 +210,7 @@ uint_fast32_t getFrameDuration(GifInfo *info);
 __attribute__ ((visibility ("default"))) JNIEnv *getEnv();
 
 __attribute__ ((visibility ("default"))) uint_fast32_t seek(GifInfo *info, uint_fast32_t desiredIndex, const void *pixels);
+
+void setGCBDefaults(GraphicsControlBlock *gcb);
 
 #endif

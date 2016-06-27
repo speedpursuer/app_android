@@ -1,12 +1,26 @@
 #include "gif.h"
 
+static bool updateGCB(GifInfo *info, uint_fast32_t *lastAllocatedGCBIndex) {
+	if (*lastAllocatedGCBIndex < info->gifFilePtr->ImageCount) {
+		GraphicsControlBlock *tmpInfos = reallocarray(info->controlBlock, info->gifFilePtr->ImageCount + 1, sizeof(GraphicsControlBlock));
+		if (tmpInfos == NULL) {
+			info->gifFilePtr->Error = D_GIF_ERR_NOT_ENOUGH_MEM;
+			return false;
+		}
+		*lastAllocatedGCBIndex = info->gifFilePtr->ImageCount;
+		info->controlBlock = tmpInfos;
+		setGCBDefaults(&info->controlBlock[info->gifFilePtr->ImageCount]);
+	}
+	return true;
+}
+
 void DDGifSlurp(GifInfo *info, bool decode, bool exitAfterFrame) {
 	GifRecordType RecordType;
 	GifByteType *ExtData;
 	int ExtFunction;
 	GifFileType *gifFilePtr;
 	gifFilePtr = info->gifFilePtr;
-	uint_fast32_t lastAllocatedGCB = 0;
+	uint_fast32_t lastAllocatedGCBIndex = 0;
 	do {
 		if (DGifGetRecordType(gifFilePtr, &RecordType) == GIF_ERROR)
 			return;
@@ -18,8 +32,8 @@ void DDGifSlurp(GifInfo *info, bool decode, bool exitAfterFrame) {
 					return;
 
 				if (isInitialPass) {
-					int_fast32_t widthOverflow = gifFilePtr->Image.Width - info->gifFilePtr->SWidth;
-					int_fast32_t heightOverflow = gifFilePtr->Image.Height - info->gifFilePtr->SHeight;
+					int_fast32_t widthOverflow = gifFilePtr->Image.Width - gifFilePtr->SWidth;
+					int_fast32_t heightOverflow = gifFilePtr->Image.Height - gifFilePtr->SHeight;
 					if (widthOverflow > 0 || heightOverflow > 0) {
 						gifFilePtr->SWidth += widthOverflow;
 						gifFilePtr->SHeight += heightOverflow;
@@ -33,6 +47,9 @@ void DDGifSlurp(GifInfo *info, bool decode, bool exitAfterFrame) {
 					int_fast32_t leftOverflow = gifFilePtr->Image.Left + gifFilePtr->Image.Width - gifFilePtr->SWidth;
 					if (leftOverflow > 0) {
 						sp->ImageDesc.Left -= leftOverflow;
+					}
+					if (!updateGCB(info, &lastAllocatedGCBIndex)) {
+						return;
 					}
 				}
 
@@ -98,25 +115,19 @@ void DDGifSlurp(GifInfo *info, bool decode, bool exitAfterFrame) {
 				break;
 
 			case EXTENSION_RECORD_TYPE:
-				if (DGifGetExtension(gifFilePtr, &ExtFunction, &ExtData) == GIF_ERROR)
+				if (DGifGetExtension(gifFilePtr, &ExtFunction, &ExtData) == GIF_ERROR) {
 					return;
+				}
 				if (isInitialPass) {
-					if (lastAllocatedGCB < info->gifFilePtr->ImageCount) {
-						GraphicsControlBlock *tmpInfos = reallocarray(info->controlBlock, info->gifFilePtr->ImageCount + 1, sizeof(GraphicsControlBlock));
-						if (tmpInfos == NULL) {
-							gifFilePtr->Error = D_GIF_ERR_NOT_ENOUGH_MEM;
-							return;
-						}
-						lastAllocatedGCB = info->gifFilePtr->ImageCount;
-						info->controlBlock = tmpInfos;
-						info->controlBlock[gifFilePtr->ImageCount].DelayTime = DEFAULT_FRAME_DURATION_MS;
-					}
-					if (readExtensions(ExtFunction, ExtData, info) == GIF_ERROR)
+					updateGCB(info, &lastAllocatedGCBIndex);
+					if (readExtensions(ExtFunction, ExtData, info) == GIF_ERROR) {
 						return;
+					}
 				}
 				while (ExtData != NULL) {
-					if (DGifGetExtensionNext(info->gifFilePtr, &ExtData) == GIF_ERROR)
+					if (DGifGetExtensionNext(gifFilePtr, &ExtData) == GIF_ERROR) {
 						return;
+					}
 					if (isInitialPass) {
 						if (readExtensions(ExtFunction, ExtData, info) == GIF_ERROR)
 							return;

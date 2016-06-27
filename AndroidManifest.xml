@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<manifest android:hardwareAccelerated="true" android:versionCode="2" android:versionName="1.0.1" package="com.lee.cliplay" xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest android:hardwareAccelerated="true" android:versionCode="4" android:versionName="1.0.3" package="com.lee.cliplay" xmlns:android="http://schemas.android.com/apk/res/android">
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true" />
     <application android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name" android:supportsRtl="true" android:largeHeap="true" android:name="com.lee.cliplay.Push.CustomApplication">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale" android:label="@string/activity_name" android:launchMode="singleTop" android:name="com.lee.cliplay.MainActivity" android:theme="@style/MainActivityTheme" android:windowSoftInputMode="adjustResize" android:screenOrientation="portrait">
@@ -11,13 +11,13 @@
         <!--<activity android:label="@string/app_name" android:name="org.pgsqlite.SQLitePlugin" />-->
         <activity
             android:name="com.lee.cliplay.ClipActivity"
-            android:label="@string/activity_name" android:screenOrientation="portrait" android:theme="@style/MyActivityTheme"
+            android:label="@string/activity_name" android:screenOrientation="portrait" android:theme="@style/ClipActivityTheme"
             android:exported="false">
         </activity>
         <activity
             android:name="com.lee.cliplay.GifActivity"
             android:label="@string/activity_name"
-            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+            android:theme="@style/MainActivityTheme"
             android:exported="false"
             >
         </activity>

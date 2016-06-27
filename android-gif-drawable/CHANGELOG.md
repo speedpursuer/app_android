@@ -1,4 +1,14 @@
+### 1.1.17
+- Fixed erroneous `GifDrawableBuilder#options()` argument modification after calling `GifDrawableBuilder#sampleSize()`
+- Javadoc improvements
+- Added passing opacity hint from `GifOptions` to `Bitmap` (framebuffer) in `GifDrawable`
+- Default GCB reworked - fixes possible artifacts - [#305](https://github.com/koral--/android-gif-drawable/issues/305)
+- Android gradle plugin updated to 2.1.2
+- Gradle wrapper updated to 2.14
+
 ### 1.1.16
+- Saved state which is not instance of `GifViewSavedState` allowed by all the Gif*Views - [#303](https://github.com/koral--/android-gif-drawable/issues/303)
+- `GifOptions` added introducing subsampling and opacity controlling in `GifDrawable`, `GifTexImage2D` and `GifDecoder`
 - Fixed segmentation fault when decoding oversized frames - [#290](https://github.com/koral--/android-gif-drawable/pull/290)
 - Native window redraw narrowed to dirty region only - [#287](https://github.com/koral--/android-gif-drawable/issues/287#issuecomment-215517405)  
 - `View#invalidate()` support added to `MultiCallback` - [#260](https://github.com/koral--/android-gif-drawable/issues/260#issuecomment-201949696)

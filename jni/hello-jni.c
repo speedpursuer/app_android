@@ -30,5 +30,5 @@ jstring Java_com_lee_cliplay_HelloJNI_dbNameFromJNI( JNIEnv* env, jobject thiz )
 }
 
 jstring Java_com_lee_cliplay_HelloJNI_apiKeyFromJNI( JNIEnv* env, jobject thiz ) {
-    return (*env)->NewStringUTF(env, "10YipKN8jSfOn0t5e1NbBwXl");
+    return (*env)->NewStringUTF(env, "tRi4CsGduLe8AZ6tU5YHikGK");
 }

@@ -11,7 +11,9 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Window;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.alertdialogpro.AlertDialogPro;
 import com.facebook.common.logging.FLog;
@@ -21,6 +23,7 @@ import com.lee.cliplay.Push.CustomApplication;
 import com.lee.cliplay.adapters.Clip;
 import com.lee.cliplay.adapters.FrescoAdapter;
 import com.lee.cliplay.adapters.PreCachingLayoutManager;
+import com.lee.cliplay.configs.LocalDataMgr;
 import com.lee.cliplay.configs.imagepipeline.ImagePipelineConfigFactory;
 import com.lee.cliplay.holders.FrescoHolder;
 import com.lee.cliplay.instrumentation.InstrumentedDraweeView;
@@ -50,6 +53,8 @@ public class ClipActivity extends Activity {
 
     private static final int VERTICAL_ITEM_SPACE = 48;
 
+    private static final String TIP_FLAG = "showClipTip";
+
     protected CustomApplication mMyApp;
 
     public String header = null;
@@ -60,14 +65,18 @@ public class ClipActivity extends Activity {
 
         mMyApp = (CustomApplication)this.getApplicationContext();
 
+        //this must be called BEFORE setContentView
+        requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
+
         setContentView(R.layout.activity_main);
 
         mRecyclerView = (RecyclerView) findViewById(R.id.image_grid);
 //        mRecyclerView.setLayoutManager(new GridLayoutManager(this, 1));
+//        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         PreCachingLayoutManager layoutManager = new PreCachingLayoutManager(this);
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
-        layoutManager.setExtraLayoutSpace(DeviceUtils.getScreenHeight(this) + 500);
+        layoutManager.setExtraLayoutSpace(DeviceUtils.getScreenHeight(this) + 200);
         mRecyclerView.setLayoutManager(layoutManager);
 
 //        mRecyclerView.addItemDecoration(new DividerItemDecoration(this, R.layout.divider));
@@ -84,9 +93,9 @@ public class ClipActivity extends Activity {
         FLog.setMinimumLoggingLevel(FLog.WARN);
         com.lee.cliplay.Drawables.init(getResources());
 
-        if (savedInstanceState != null) {
-
-        }
+//        if (savedInstanceState != null) {
+//
+//        }
 
         mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
@@ -101,12 +110,20 @@ public class ClipActivity extends Activity {
 
         header = getIntent().getStringExtra("pushHeader");
 
-        boolean showTip = getIntent().getBooleanExtra("showTip", false);
+//        boolean showTip = getIntent().getBooleanExtra("showTip", false);
 
-        if(showTip) addTipDialog();
+        if(LocalDataMgr.getShowTipFlag(TIP_FLAG)) addTipDialog();
 
 //        setSourceAdapter(data);
-        setupSource(data);
+
+
+        //this must bew called AFTER setContentView
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.custom_title_bar);
+
+        //set the title
+        TextView textView = (TextView)findViewById(R.id.custom_title_text);
+
+        setupSource(data, textView);
     }
 
     private void addTipDialog() {
@@ -130,6 +147,7 @@ public class ClipActivity extends Activity {
 
         @Override
         public void onClick(DialogInterface dialog, int which) {
+            LocalDataMgr.setShowTipFlag(TIP_FLAG);
         }
     }
 
@@ -152,13 +170,14 @@ public class ClipActivity extends Activity {
     @Override
     protected void onStop() {
         super.onStop();
+        LocalDataMgr.persistData();
+        clearReferences();
+        ImagePipeline imagePipeline = Fresco.getImagePipeline();
+        imagePipeline.clearMemoryCaches();
     }
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        clearReferences();
-        ImagePipeline imagePipeline = Fresco.getImagePipeline();
-        imagePipeline.clearMemoryCaches();
     }
 
     public void updateAutoPlay() {
@@ -241,43 +260,55 @@ public class ClipActivity extends Activity {
         return Math.min(desiredSize, parentWidth);
     }
 
-    private void setupSource(String data) {
+    private void setupSource(String data, TextView title) {
 //        List<String> urls = new ArrayList<>();
-
         FrescoAdapter adapter = new FrescoAdapter(this);
+        boolean isFavorite = getIntent().getBooleanExtra("favorite", false);
 
-        try{
-            JSONObject dataJson = new JSONObject(data);
-            String url = dataJson.getString("image");
-            if(header == null) {
-                header = dataJson.getString("header");
-            }
-
-            adapter.setHeader(dataJson.getString("summary"));
-
-            this.setTitle(header);
-
-            JSONArray array = new JSONArray(url);
-            for (int i = 0; i < array.length(); i++) {
-//                urls.add(((JSONObject)array.get(i)).getString("url"));
-                JSONObject obj = (JSONObject)array.get(i);
-                Clip clip = new Clip(obj.getString("url"), obj.getString("desc"));
+        if(isFavorite) {
+            ArrayList urls = LocalDataMgr.getFavoriateImages();
+            for (int i = 0; i < urls.size(); i++) {
+                Clip clip = new Clip((String)urls.get(i), "");
                 adapter.addUrl(clip);
-//                urls.add((String)array.get(i));
             }
-        }catch(JSONException e){
-            e.printStackTrace();
+//            this.setTitle("我的收藏");
+            title.setText("我的收藏");
+            adapter.setHeader("");
+        }else {
+            try{
+                JSONObject dataJson = new JSONObject(data);
+                String url = dataJson.getString("image");
+                if(header == null) {
+                    header = dataJson.getString("header");
+                }
+
+                adapter.setHeader(dataJson.getString("summary"));
+
+//                this.setTitle(header);
+                title.setText(header);
+
+                JSONArray array = new JSONArray(url);
+                for (int i = 0; i < array.length(); i++) {
+//                urls.add(((JSONObject)array.get(i)).getString("url"));
+                    JSONObject obj = (JSONObject)array.get(i);
+//                    Clip clip = new Clip(obj.getString("url"), obj.getString("desc"));
+                    String desc = obj.getString("desc");
+                    if(!desc.equals("")) {
+                        Clip clip = new Clip("", desc);
+                        adapter.addUrl(clip);
+                    }
+
+                    Clip clip = new Clip(obj.getString("url"), "");
+                    adapter.addUrl(clip);
+//                urls.add((String)array.get(i));
+                }
+            }catch(JSONException e){
+                e.printStackTrace();
+                return;
+            }
         }
 
-//        updateAdapter(mImageUrls);
-
         mRecyclerView.setAdapter(adapter);
-
-//        if (urls != null) {
-//            for (String url : urls) {
-//                adapter.addUrl(url);
-//            }
-//        }
 
         checkConnection();
 
@@ -374,6 +405,6 @@ public class ClipActivity extends Activity {
         if (this.equals(currActivity)){
             mMyApp.setCurrentActivity(null);
         }
-//        System.gc();
+        System.gc();
     }
 }

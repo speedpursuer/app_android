@@ -23,24 +23,26 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.drawable.ScalingUtils;
 import com.facebook.drawee.generic.GenericDraweeHierarchy;
 import com.facebook.drawee.generic.GenericDraweeHierarchyBuilder;
+import com.facebook.imagepipeline.core.ImagePipelineConfig;
 import com.lee.cliplay.Drawables;
 import com.lee.cliplay.R;
 import com.lee.cliplay.holders.FrescoHolder;
 import com.lee.cliplay.holders.HeaderViewHolder;
+import com.lee.cliplay.holders.TitleViewHolder;
 
 /**
  * RecyclerView Adapter for Fresco
  */
 public class FrescoAdapter extends com.lee.cliplay.adapters.ImageListAdapter {
 
-//  public FrescoAdapter(
-//      Context context,
-////      PerfListener perfListener,
-//      ImagePipelineConfig imagePipelineConfig) {
-////    super(context, perfListener);
-//    super(context);
-//    Fresco.initialize(context, imagePipelineConfig);
-//  }
+  public FrescoAdapter(
+      Context context,
+//      PerfListener perfListener,
+      ImagePipelineConfig imagePipelineConfig) {
+//    super(context, perfListener);
+    super(context);
+    Fresco.initialize(context, imagePipelineConfig);
+  }
 
   private LayoutInflater mInflater;
 
@@ -76,6 +78,9 @@ public class FrescoAdapter extends com.lee.cliplay.adapters.ImageListAdapter {
 //    return new FrescoHolder(getContext(), parent, instrView);
 
       return new FrescoHolder(getContext(), view, gdh, parent);
+    }else if(viewType == TYPE_TITLE) {
+      View v = mInflater.inflate (R.layout.title_item, parent, false);
+      return new TitleViewHolder(v);
     }else {
       View v = mInflater.inflate (R.layout.header_item, parent, false);
       return new HeaderViewHolder(v);

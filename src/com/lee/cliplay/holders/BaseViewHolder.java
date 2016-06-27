@@ -16,8 +16,7 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.widget.FrameLayout;
 
 import com.lee.cliplay.ClipActivity;
 import com.lee.cliplay.R;
@@ -32,7 +31,7 @@ public abstract class BaseViewHolder<V extends View & Instrumented>
 //  private final PerfListener mPerfListener;
   private final View mParentView;
   protected final V mImageView;
-  protected TextView mTextView;
+//  protected TextView mTextView;
   private Context mContext;
   protected String URL;
   private int screenHeight;
@@ -60,7 +59,8 @@ public abstract class BaseViewHolder<V extends View & Instrumented>
     this.mContext = context;
     this.mParentView = parentView;
     this.mImageView = (V)view.findViewById(R.id.id_index_gallery_item_image);
-    this.mTextView = (TextView)view.findViewById(R.id.id_index_gallery_item_text);
+//    this.mTextView = (TextView)view.findViewById(R.id.id_index_gallery_item_text);
+    bindLikeButton(this.mImageView, view.findViewById(R.id.star_button));
 
     this.screenHeight = this.mContext.getResources().getDisplayMetrics().heightPixels;
 
@@ -70,10 +70,10 @@ public abstract class BaseViewHolder<V extends View & Instrumented>
     }
   }
 
-  public void bind(String url, String desc, int position) {
+  public void bind(String url, int position) {
     mImageView.initInstrumentation(Integer.toString(position));
 //    mImageView.initInstrumentation(Integer.toString(position), mPerfListener);
-    onBind(url, desc);
+    onBind(url);
   }
 
   public V getImageView() {
@@ -85,7 +85,9 @@ public abstract class BaseViewHolder<V extends View & Instrumented>
   /**
    * Load an image of the specified uri into the view, asynchronously.
    */
-  protected abstract void onBind(String uri, String desc);
+  protected abstract void onBind(String uri);
+
+  protected abstract void bindLikeButton(View mImageView, View mButton);
 
   protected Context getContext() {
     return mContext;
@@ -96,7 +98,8 @@ public abstract class BaseViewHolder<V extends View & Instrumented>
     if (layoutParams == null || layoutParams.height != width || layoutParams.width != height) {
 //      layoutParams = new AbsListView.LayoutParams(width, height);
 //      layoutParams = new RelativeLayout.LayoutParams(width, (int)(screenHeight/2.5));
-      layoutParams = new LinearLayout.LayoutParams(width, (int)(screenHeight/2.5));
+//      layoutParams = new LinearLayout.LayoutParams(width, (int)(screenHeight/2.5));
+      layoutParams = new FrameLayout.LayoutParams(width, (int)(screenHeight/2.5));
       view.setLayoutParams(layoutParams);
     }
   }

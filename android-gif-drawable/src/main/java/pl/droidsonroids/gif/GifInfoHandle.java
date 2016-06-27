@@ -13,6 +13,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
 
+import static pl.droidsonroids.gif.GifOptions.UINT16_MAX;
+
 /**
  * Native library wrapper
  */
@@ -137,6 +139,8 @@ final class GifInfoHandle {
 
 	private static native int getNumberOfFrames(long gifInfoPtr);
 
+	private static native boolean isOpaque(long gifInfoPtr);
+
 	private static native void startDecoderThread(long gifInfoPtr);
 
 	private static native void stopDecoderThread(long gifInfoPtr);
@@ -182,8 +186,8 @@ final class GifInfoHandle {
 		return getLoopCount(gifInfoPtr);
 	}
 
-	void setLoopCount(@IntRange(from = 0, to = 0xFFFF) final int loopCount) {
-		if (loopCount < 0 || loopCount > 0xFFFF) {
+	void setLoopCount(@IntRange(from = 0, to = UINT16_MAX) final int loopCount) {
+		if (loopCount < 0 || loopCount > UINT16_MAX) {
 			throw new IllegalArgumentException("Loop count of range <0, 65535>");
 		}
 		synchronized (this) {
@@ -291,6 +295,10 @@ final class GifInfoHandle {
 
 	synchronized int getNumberOfFrames() {
 		return getNumberOfFrames(gifInfoPtr);
+	}
+
+	synchronized boolean isOpaque() {
+		return isOpaque(gifInfoPtr);
 	}
 
 	void glTexImage2D(int target, int level) {

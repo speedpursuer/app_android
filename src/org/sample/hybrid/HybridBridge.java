@@ -24,7 +24,7 @@ public class HybridBridge extends CordovaPlugin {
                 String urls = args.getString(0);
                 boolean showTip = args.getBoolean(1);
 
-                if(cordova.getActivity().getLocalClassName().equals("ClipActivity")) return false;
+                if(app.getCurrentActivity().getLocalClassName().equals("ClipActivity")) return false;
 
                 Context context = cordova.getActivity().getApplicationContext();
                 Intent intent = new Intent(context, ClipActivity.class);
@@ -53,6 +53,17 @@ public class HybridBridge extends CordovaPlugin {
                 return true;
             }else if (action.equals("moveToBack")) {
                 cordova.getActivity().moveTaskToBack(true);
+            }else if (action.equals("showFavorite")) {
+
+                if(app.getCurrentActivity().getLocalClassName().equals("ClipActivity")) return false;
+
+                Context context = cordova.getActivity().getApplicationContext();
+                Intent intent = new Intent(context, ClipActivity.class);
+                intent.putExtra("favorite", true);
+                intent.putExtra("showTip", false);
+                cordova.startActivityForResult(this,intent,1);
+                callbackContext.success();
+                return true;
             }
             callbackContext.error("Invalid action");
             return false;

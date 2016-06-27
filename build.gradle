@@ -277,6 +277,7 @@ dependencies {
     compile 'com.yqritc:recyclerview-flexibledivider:1.2.9'
     compile files('libs/pushservice-5.0.0.66.jar')
     compile 'com.github.fengdai:alertdialogpro-theme-material:0.2.6'
+    compile 'com.github.jd-alexander:LikeButton:0.2.0'
     compile project(':android-gif-drawable')
 }
 
