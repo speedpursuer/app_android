@@ -12,3 +12,7 @@ gen
 out
 # Gradle builds
 /build
+
+*.trace
+
+*.apk

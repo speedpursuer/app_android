@@ -31,7 +31,7 @@ def addFlavors() {
 }
 
 def getNdkBuildCommand() {
-    def command = "/Volumes/MabBackUp/android-ndk-r11c/ndk-build"
+    def command = "/Volumes/MacBackUp/android-ndk-r11c/ndk-build"
     Os.isFamily(Os.FAMILY_WINDOWS) ? "${command}.cmd" : command
 }
 

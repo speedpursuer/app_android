@@ -193,6 +193,14 @@ public class GifActivity extends Activity {
         if(LocalDataMgr.getShowTipFlag(TIP_FLAG)) addTipDialog();
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (mGifTexImage2D != null) {
+            mGifTexImage2D.recycle();
+        }
+    }
+
     private void play(){
         if(!isRunning) {
             mGifTexImage2D.startDecoderThread();
